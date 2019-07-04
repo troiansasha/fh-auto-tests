@@ -17,7 +17,7 @@ public class HomePage extends ParentPage {
             try {
 
                         logger.info(webDriver.getCurrentUrl());
-                Assert.assertEquals("https://dev.fleethand.com/monitor",
+                Assert.assertEquals("https://uat.fleethand.com/monitor",
                         webDriver.getCurrentUrl());
                         logger.info("It is expected URL");
 
