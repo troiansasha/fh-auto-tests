@@ -29,29 +29,29 @@ public class PersonelDriversTest extends ParentTest {
 
     }
 
-//    @Test
-//    public void validPersonelDriversEditSave()  {
-//        //Login block
-//        loginPage.validLogin();
-//        changeLanguagePage.clickOnLanguage();
-//        changeLanguagePage.changeLanguage();
-//        homePage.timer10seconds();
-//        //Go to personnel Users
-//        personelDriversPage.openPersonel();
-//        personelDriversPage.openPersonelDrivers();
-//        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
-//        personelDriversPage.addNewDriver();
-//        personelDriversPage.dataDrivers();
-//        personelDriversPage.clickOnSetLanguage();
-//        personelDriversPage.clickSubmit();
-//        personelDriversPage.enterTextInToSearchByFullName("Test Test");
-//        homePage.timer3seconds();
-//        personelDriversPage.driverIsCorrect();
-//
-//        personelDriversPage.enterTextInToSearchByFullName("Test Test");
-//        personelDriversPage.driverIsCorrect();
-//
-//    }
+    @Test
+    public void validPersonelDriversEditSave()  {
+        //Login block
+        loginPage.validLogin();
+        changeLanguagePage.clickOnLanguage();
+        changeLanguagePage.changeLanguage();
+        homePage.timer10seconds();
+        //Go to personnel Users
+        personelDriversPage.openPersonel();
+        personelDriversPage.openPersonelDrivers();
+        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
+        personelDriversPage.addNewDriver();
+        personelDriversPage.dataDrivers();
+        personelDriversPage.clickOnSetLanguage();
+        personelDriversPage.clickSubmit();
+        personelDriversPage.enterTextInToSearchByFullName("Test Test");
+        homePage.timer3seconds();
+        personelDriversPage.driverIsCorrect();
+        personelDriversPage.editDriverSave();
+        personelDriversPage.enterTextInToSearchByFullName("Edit Test");
+        personelDriversPage.editDriverIsCorrect();
+        personelDriversPage.deleteDriver();
+    }
 
     @Test
     public void validPersonelDriversEditBack()  {
@@ -63,7 +63,6 @@ public class PersonelDriversTest extends ParentTest {
         //Go to personnel Users
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
-
 //        personelDriversPage.headerIsCorrect();
         checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
         personelDriversPage.addNewDriver();

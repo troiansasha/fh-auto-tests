@@ -15,11 +15,9 @@ public class ActionsWithOurElements {
 
     public void enterTextIntoInput(WebElement element, String text) {
         try {
-
             element.clear();
             element.sendKeys(text);
             logger.info(text + " was inputted into input ");
-
 
         } catch (Exception e) {
             logger.error("Can not work with element");
