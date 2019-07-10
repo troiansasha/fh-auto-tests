@@ -48,7 +48,7 @@ public class ParentTest {
 
     }
 
-//    public void checkExpectedResult (String message, boolean actualResalt){
-//        checkExpectedResult(message, actualResalt);
+//    public void checkExpectedResult (String message, boolean actualResult){
+//        checkExpectedResult(message, actualResult);
 //    }
 }

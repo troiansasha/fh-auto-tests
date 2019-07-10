@@ -32,4 +32,12 @@ public class HomePage extends ParentPage {
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         logger.info("10 second timer for download started");
     }
+
+    public void timer3seconds(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 }

@@ -2,7 +2,6 @@ package pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -38,42 +37,35 @@ public class PersonelDriversPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(name="driverCard")
     private WebElement searchByDriverCard;
+    @FindBy(xpath = ".//*[text()='Personnel']")
+    private WebElement personel;
+    @FindBy(xpath = ".//*[text()='Drivers']")
+    private WebElement openDrivers;
+    @FindBy(xpath = ".//span[text()='Drivers']")
+    private WebElement checkDriversPage;
 
     public void openPersonel() {
+        actionsWithOurElements.clickOnElement(personel);
 
-        try {
-            WebElement personnelButton = webDriver.findElement(By.xpath(".//*[text()='Personnel']"));
-            personnelButton.click();
-            logger.info("Button Personnel was clicked");
-        } catch (Exception e) {
-            logger.error("Can not work with element");
-            Assert.fail("Can not work with element");
-        }
     }
 
     public void openPersonelDrivers() {
-        try {
-            WebElement personnelDriversButton = webDriver.findElement(By.xpath(".//*[text()='Drivers']"));
-            personnelDriversButton.click();
-            logger.info("Button Personnel/Drivers was clicked");
-        } catch (Exception e) {
-            logger.error("Can not work with element");
-            Assert.fail("Can not work with element");
-        }
+        actionsWithOurElements.clickOnElement(openDrivers);
 
     }
 
     public boolean headerIsCorrect() {
-        try {
-            webDriver.findElement(By.xpath(".//span[text()='Drivers']")).isDisplayed();
-                logger.info("Header from current page");
-                return true;
-
-        } catch (Exception e) {
-            logger.error("Can not work with element");
-            Assert.fail("Can not work with element");
-        }
-        return false;
+        return
+        actionsWithOurElements.elementIsDisplayed(checkDriversPage);
+//        try {
+//            webDriver.findElement(By.xpath(".//span[text()='Drivers']")).isDisplayed();
+//                logger.info("Header from current page");
+//                return true;
+//        } catch (Exception e) {
+//            logger.error("Can not work with element");
+//            Assert.fail("Can not work with element");
+//        }
+//        return false;
     }
 
     public void addNewDriver(){
@@ -152,9 +144,10 @@ public class PersonelDriversPage extends ParentPage {
             logger.error("Can not work with element");
             Assert.fail("Can not work with element");
         }
+
     }
 
-    public void editDriver() {
+    public void editDriverBack() {
         try {
             webDriver.findElement(By.xpath(".//span[text()='Drivers']")).click();
             logger.info("Header from current page");
@@ -165,7 +158,7 @@ public class PersonelDriversPage extends ParentPage {
         }
         try {
             buttonEdit.click();
-            logger.info("Button submit was clicked");
+            logger.info("Button edit was clicked");
         } catch (Exception e) {
             logger.error("Can not work with element");
             Assert.fail("Can not work with element");
@@ -221,7 +214,16 @@ public class PersonelDriversPage extends ParentPage {
         }
     }
 
-
+    public boolean driverIsCorrect() {
+        try {
+            webDriver.findElement(By.xpath(".//*[text()='Test Test']")).isDisplayed();
+            logger.info("Current driver");
+            return true;
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+        return false;
+    }
 
 }
-
