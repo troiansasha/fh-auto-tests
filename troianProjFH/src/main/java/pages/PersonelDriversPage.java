@@ -64,7 +64,7 @@ public class PersonelDriversPage extends ParentPage {
 
     public boolean headerIsCorrect() {
         return
-        actionsWithOurElements.elementIsDisplayed(checkDriversPage);
+            actionsWithOurElements.elementIsDisplayed(checkDriversPage);
     }
 
     public boolean editDriverIsCorrect(){
@@ -88,7 +88,6 @@ public class PersonelDriversPage extends ParentPage {
         actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, phoneNumber);
     }
 
-
     public void inputDataDrivers(String fullName, String driverCardNumber, String phoneNumber){
         enterTextInToInputFullName(fullName);
         enterTextInToInputDriverCardNumber(driverCardNumber);
@@ -101,8 +100,7 @@ public class PersonelDriversPage extends ParentPage {
 
     public void clickOnSetLanguage() {
         actionsWithOurElements.clickOnElement(setLanguage);
-//
-        actionsWithOurElements.clickOnElement(chooseLanguage);//
+        actionsWithOurElements.clickOnElement(chooseLanguage);
     }
 
     public void clickSubmit() {
@@ -116,35 +114,28 @@ public class PersonelDriversPage extends ParentPage {
 
     public void editDriverBack() {
         actionsWithOurElements.clickOnElement(checkDriversPage);
-//
         actionsWithOurElements.clickOnElement(buttonEdit);
-//
-        actionsWithOurElements.clickOnElement(buttonBack);//
+        actionsWithOurElements.clickOnElement(buttonBack);
     }
 
     public void editDriverSave() {
         actionsWithOurElements.clickOnElement(checkDriversPage);
-//
         actionsWithOurElements.clickOnElement(buttonEdit);
-
         actionsWithOurElements.enterTextIntoInput(inputFullName, "Edit Test");
         actionsWithOurElements.enterTextIntoInput(inputDriverCard, "5321654987848751");
         actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, "00000000001");
-//
         actionsWithOurElements.clickOnElement(buttonSubmit);//
     }
 
     public void deleteDriver() {
         actionsWithOurElements.clickOnElement(checkDriversPage);
-//
         actionsWithOurElements.clickOnElement(buttonDelete);
-//
         actionsWithOurElements.clickOnElement(buttonYes);
     }
 
-    public void enterTextInToSearchByFullNameClear(String fullName) {
-        actionsWithOurElements.enterTextIntoInput(searchByFullName, "");
-    }
+//    public void enterTextInToSearchByFullNameClear(String fullName) {
+//        actionsWithOurElements.enterTextIntoInput(searchByFullName, "");
+//    }
 
     public void enterTextInToSearchByDriverCard(String driverCard) {
         actionsWithOurElements.enterTextIntoInput(searchByDriverCard, "1578487894561235");

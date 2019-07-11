@@ -12,7 +12,7 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-        //Go to personnel Users
+        //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
         personelDriversPage.headerIsCorrect();
@@ -36,7 +36,7 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-        //Go to personnel Users
+        //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
         checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
@@ -60,7 +60,7 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-        //Go to personnel Users
+        //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
 //        personelDriversPage.headerIsCorrect();
@@ -87,7 +87,7 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-        //Go to personnel Users
+        //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
 //        personelDriversPage.headerIsCorrect();
@@ -110,7 +110,7 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-        //Go to personnel Users
+        //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
 //        personelDriversPage.headerIsCorrect();
