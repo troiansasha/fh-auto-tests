@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
+import pages.servicesPages.ExpectedServicesPage;
+import pages.servicesPages.FinishedServicesPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +19,8 @@ public class ParentTest {
     protected PersonelUserPage personelUserPage;
     protected PersonelDriversPage personelDriversPage;
     protected ChangeLanguagePage changeLanguagePage;
+    protected ExpectedServicesPage expectedServicesPage;
+    protected FinishedServicesPage finishedServicesPage;
 
     //Precondition
     @Before
@@ -34,6 +38,8 @@ public class ParentTest {
     personelUserPage = new PersonelUserPage(webDriver);
     personelDriversPage = new PersonelDriversPage(webDriver);
     changeLanguagePage = new ChangeLanguagePage(webDriver);
+    expectedServicesPage = new ExpectedServicesPage(webDriver);
+    finishedServicesPage = new FinishedServicesPage(webDriver);
     }
     @After
     public void tearDown () {

@@ -3423,3 +3423,682 @@
 2019-10-07 15:18:48   INFO [libs.ActionsWithOurElements] : Element was clicked
 2019-10-07 15:18:48   INFO [libs.ActionsWithOurElements] : Element was clicked
 2019-10-07 15:18:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:58:40   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 09:59:04  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 09:59:22   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 09:59:22   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 09:59:22   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 09:59:22   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 09:59:24   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 09:59:24   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 09:59:24   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 09:59:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:26   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 09:59:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:41   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 09:59:42   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 09:59:42   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 09:59:42   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 09:59:43   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 09:59:44   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 09:59:44   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 09:59:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:45   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 09:59:45   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 09:59:45   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 09:59:45   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:45   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:46   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:46   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 09:59:46   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 09:59:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:05   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:00:05   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:00:05   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:00:05   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:00:07   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:00:07   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:00:07   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:00:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:08   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:08   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:08   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:00:08   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:00:08   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:09   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:10   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:10   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:11   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:11   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:11   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:12   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:12   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:12   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:28   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:00:28   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:00:29   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:00:29   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:00:30   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:00:30   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:00:30   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:00:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:31   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:32   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:33   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:34   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:34   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:34   INFO [libs.ActionsWithOurElements] : Edit Test was inputted into input 
+2019-11-07 10:00:35   INFO [libs.ActionsWithOurElements] : 5321654987848751 was inputted into input 
+2019-11-07 10:00:35   INFO [libs.ActionsWithOurElements] : 00000000001 was inputted into input 
+2019-11-07 10:00:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:35   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:00:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:36   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:36   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:00:36   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:43   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:06:43   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:06:43   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:06:44   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:06:45   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:06:45   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:06:45   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:06:46   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:46   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:46   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:46   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:47   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:06:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:06:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:07:29   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:07:52  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 10:08:33   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:08:50   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:08:50   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:08:50   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:08:52   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:08:52   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:08:52   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:08:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:53   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:53   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:08:53   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:08:53   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:08:54   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:54   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:54   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:54   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:08:54   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:55   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:55   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:08:56   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:16   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:09:17   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:09:17   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:09:17   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:09:18   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:09:18   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:09:18   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:09:19   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:19   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:19   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:20   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:09:20   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:09:20   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:09:20   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:20   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:21   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:09:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:09:53   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:10:03  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 10:10:20   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:10:20   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:10:20   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:10:20   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:10:22   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:10:22   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:10:22   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:10:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:24   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:10:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:26   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:10:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:10:58   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:11:08  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 10:52:38   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:52:38   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:52:38   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:52:38   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:52:39   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:52:40   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:52:40   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:52:40   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:40   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:40   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:41   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:52:41   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:52:41   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:52:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:42   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:52:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:52:59   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:52:59   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:52:59   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:52:59   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:53:01   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:53:01   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:53:01   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:53:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:02   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:53:02   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:53:02   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:53:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:03   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:53:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:05   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:05   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:05   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:36   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:53:57   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:53:57   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:53:57   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:53:58   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:53:59   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:53:59   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:53:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:53:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:00   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:01   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:03   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:04   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:04   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:04   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:19   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 10:54:19   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 10:54:19   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 10:54:19   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 10:54:21   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 10:54:21   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 10:54:21   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 10:54:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:22   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:22   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 10:54:23   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 10:54:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:23   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:25   INFO [libs.ActionsWithOurElements] : Edit Test was inputted into input 
+2019-11-07 10:54:25   INFO [libs.ActionsWithOurElements] : 5321654987848751 was inputted into input 
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : 00000000001 was inputted into input 
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 10:54:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:55:28   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 11:55:28   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 11:55:28   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 11:55:28   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 11:55:30   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 11:55:30   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 11:55:30   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 11:59:39   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 11:59:40   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 11:59:40   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 11:59:40   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 11:59:41   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 11:59:41   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 11:59:41   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 11:59:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:42   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 11:59:43   INFO [libs.ActionsWithOurElements] : 1578487894561235 was inputted into input 
+2019-11-07 11:59:43   INFO [libs.ActionsWithOurElements] : 581365811 was inputted into input 
+2019-11-07 11:59:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:44   INFO [libs.ActionsWithOurElements] : Test Test was inputted into input 
+2019-11-07 11:59:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:45   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:45   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 11:59:45   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:01:56   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:02:19  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:02:41   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:02:41   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:02:41   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:02:41   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:02:43   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:02:43   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:02:43   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 12:05:12   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:05:13   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:05:13   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:05:13   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:05:14   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:05:14   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:07:18   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:07:53  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:08:59   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:09:22  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:10:01   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:10:23  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:10:44   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:10:45   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:10:45   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:10:45   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:10:46   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:10:47   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:13:25   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:13:25   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:13:25   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:13:25   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:13:26   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:13:27   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:14:13   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:14:36  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:28:39   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:28:40   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:28:40   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:28:40   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:28:41   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:28:42   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:30:41   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:30:41   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:30:41   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:30:41   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:30:43   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:30:43   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:30:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:30:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:42:50   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:43:05   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:43:06   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:43:06   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:43:07   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:43:07   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:43:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:43:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:49:34   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:49:44  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:53:15   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 12:53:15   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 12:53:15   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 12:53:15   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 12:53:16   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 12:53:17   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 12:53:17   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 12:53:17   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:53:17   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 12:53:27  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 12:59:34   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:00:01  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:00:36   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:00:46  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:01:25   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:01:59  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:02:50   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:02:51   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 13:02:51   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 13:02:51   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 13:02:52   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 13:02:53   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 13:02:53   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 13:02:53   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 13:02:53   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 13:03:03  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:04:12   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:04:36  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:05:16   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:05:39  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 13:06:20   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 13:06:32   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 13:06:33   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 13:06:33   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 13:06:34   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 13:06:34   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 13:06:34   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 13:06:34   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 13:06:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 13:06:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:28:01   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:28:01   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:28:01   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:28:01   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:28:02   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:28:03   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:28:03   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:28:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:28:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:28:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:28:04   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:28:04   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:32   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:32:32   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:32:33   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:32:33   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:32:34   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:32:34   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:32:34   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:32:35   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:28   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:37:28   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:37:28   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:37:28   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:37:30   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:37:30   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:37:30   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:37:30   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:30   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:37:31   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:38:47   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:39:11  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 14:39:35   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:39:35   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:39:36   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:39:36   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:39:37   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:39:37   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:39:37   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:38   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:39   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:39:39   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:41   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:45:41   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:45:41   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:45:41   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:45:43   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:45:43   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:45:43   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:45:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:45:44   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 14:48:28   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:48:51  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 14:49:36   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:49:46  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 14:50:13   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:50:13   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:50:14   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:50:14   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:50:15   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:50:15   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:50:15   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:16   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:17   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:17   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:17   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:50:17   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 14:51:32   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:51:43  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 14:56:58   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:57:05  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-11-07 14:57:23   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 14:57:23   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 14:57:23   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 14:57:24   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 14:57:25   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 14:57:25   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 14:57:25   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 14:57:27   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 14:57:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:19   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 15:03:25   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 15:03:25   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 15:03:25   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 15:03:27   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 15:03:27   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 15:03:27   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 15:03:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 15:03:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:03   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 15:56:03   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 15:56:03   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 15:56:03   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 15:56:05   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 15:56:05   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 15:56:05   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 15:56:05   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:06   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:07   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 15:56:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:56:07   INFO [libs.ActionsWithOurElements] : TestTO was inputted into input 
+2019-11-07 15:56:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:45   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 15:57:45   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 15:57:45   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 15:57:46   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 15:57:47   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 15:57:47   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 15:57:47   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:48   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Test was inputted into input 
+2019-11-07 15:57:49   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:01:58   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 16:01:59   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 16:01:59   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 16:01:59   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 16:02:00   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 16:02:01   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 16:02:01   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 16:02:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:01   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:02:02   INFO [libs.ActionsWithOurElements] : Test was inputted into input 
+2019-11-07 16:02:03   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:04   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 16:03:20   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 16:03:20   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 16:03:20   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 16:03:21   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 16:03:22   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 16:03:22   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 16:03:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:03:24   INFO [libs.ActionsWithOurElements] : Test was inputted into input 
+2019-11-07 16:03:24   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:21   INFO [pages.LoginPage] : LoginPage was opened
+2019-11-07 16:08:38   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-11-07 16:08:39   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-11-07 16:08:39   INFO [pages.LoginPage] : Button enter was clicked
+2019-11-07 16:08:40   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-11-07 16:08:40   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-11-07 16:08:40   INFO [pages.HomePage] : 10 second timer for download started
+2019-11-07 16:08:40   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:41   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Test was inputted into input 
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:42   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-11-07 16:08:43   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:49   INFO [pages.LoginPage] : LoginPage was opened
+2019-12-07 10:01:49   INFO [libs.ActionsWithOurElements] : test.fleethand@gmail.com was inputted into input 
+2019-12-07 10:01:49   INFO [libs.ActionsWithOurElements] : 1506milk was inputted into input 
+2019-12-07 10:01:49   INFO [pages.LoginPage] : Button enter was clicked
+2019-12-07 10:01:50   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-12-07 10:01:51   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-12-07 10:01:51   INFO [pages.HomePage] : 10 second timer for download started
+2019-12-07 10:01:51   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:51   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:01:52   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-12-07 10:02:03  ERROR [libs.ActionsWithOurElements] : Can not work with element
