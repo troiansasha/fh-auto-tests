@@ -9,11 +9,11 @@ public class LoginTestWithPageObject extends ParentTest {
     public void validLogin(){
 
     loginPage.openPage();
-    loginPage.enterTextInToInputLogin("troianwork@gmail.com");
-    loginPage.enterTextInToInputPass("1q2w3e4r");
+        loginPage.enterTextInToInputLogin("troianwork@gmail.com");
+        loginPage.enterTextInToInputPass("1q2w3e4r");
     loginPage.clickOnButtonEnter();
     homePage.timer10seconds();
-    loginPage.clickOnButtonUser();
+    loginPage.clickOnButtonEnter();
 
     checkExpectedResult("Url is not correct", true, homePage.isItCorrectUrl());
     }
