@@ -5,9 +5,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pages.HomePage;
-import pages.LoginPage;
-import pages.PersonnelUsserPage;
+import pages.*;
+import pages.servicesPages.ExpectedServicesPage;
+import pages.servicesPages.FinishedServicesPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -16,7 +16,11 @@ public class ParentTest {
     protected WebDriver webDriver;
     protected LoginPage loginPage;
     protected HomePage homePage;
-    protected PersonnelUsserPage personnelUsserPage;
+    protected PersonelUserPage personelUserPage;
+    protected PersonelDriversPage personelDriversPage;
+    protected ChangeLanguagePage changeLanguagePage;
+    protected ExpectedServicesPage expectedServicesPage;
+    protected FinishedServicesPage finishedServicesPage;
 
     //Precondition
     @Before
@@ -31,21 +35,26 @@ public class ParentTest {
 
     loginPage = new LoginPage(webDriver);
     homePage = new HomePage(webDriver);
+    personelUserPage = new PersonelUserPage(webDriver);
+    personelDriversPage = new PersonelDriversPage(webDriver);
+    changeLanguagePage = new ChangeLanguagePage(webDriver);
+    expectedServicesPage = new ExpectedServicesPage(webDriver);
+    finishedServicesPage = new FinishedServicesPage(webDriver);
     }
     @After
     public void tearDown () {
-        webDriver.quit();
+//        webDriver.quit();
     }
 
 
 
-    public void checkExpectedResult (String message, boolean expectedResult, boolean actualResalt){
+    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResalt){
 
         Assert.assertEquals(message, expectedResult, actualResalt);
 
     }
 
-//    public void checkExpectedResult (String message, boolean actualResalt){
-//        checkExpectedResult();
+//    public void checkExpectedResult (String message, boolean actualResult){
+//        checkExpectedResult(message, actualResult);
 //    }
 }
