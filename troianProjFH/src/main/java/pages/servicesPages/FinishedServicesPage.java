@@ -33,7 +33,6 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement clickSetServiceDate;
     @FindBy(xpath = ".//*[text()='11']")
     private WebElement chooseSetServiceDate;
-
 //    @FindBy(id = "serviceDate")
 //    private WebElement setLastService;
     @FindBy(xpath=".//*[text()=' Save ']")
@@ -50,6 +49,7 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
+    
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);
