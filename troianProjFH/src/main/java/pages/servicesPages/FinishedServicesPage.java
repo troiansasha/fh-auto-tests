@@ -49,7 +49,7 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
-    
+
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);

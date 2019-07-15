@@ -39,7 +39,7 @@ public class ActionsWithOurElements {
         try {
             return
                 webElement.isDisplayed();
-
+//                logger.info("Element");
         } catch (Exception e) {
             return false;
 
