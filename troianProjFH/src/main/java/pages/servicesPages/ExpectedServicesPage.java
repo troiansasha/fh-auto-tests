@@ -88,8 +88,8 @@ public class ExpectedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(setGroupe);
     }
 
-    public void enterTextIntoSearchByVehicle(){
-        actionsWithOurElements.enterTextIntoInput(inputVehicleName, "Test");
+    public void enterTextIntoSearchByVehicle(String vehicle){
+        actionsWithOurElements.enterTextIntoInput(inputVehicleName, vehicle);
         actionsWithOurElements.clickOnElement(buttonSearch);
     }
 
@@ -98,6 +98,7 @@ public class ExpectedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(buttonDelete);
         actionsWithOurElements.clickOnElement(buttonYes);
     }
+
 
 
 

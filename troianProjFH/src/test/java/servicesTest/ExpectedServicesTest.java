@@ -17,14 +17,15 @@ public class ExpectedServicesTest extends ParentTest {
         homePage.timer10seconds();
         expectedServicesPage.openServices();
         expectedServicesPage.openSetvicesExpected();
-        expectedServicesPage.headerIsCorrect();
+//        expectedServicesPage.headerIsCorrect();
+        checkExpectedResult("Page Services/Expected Services not opened", true, expectedServicesPage.headerIsCorrect());
         expectedServicesPage.addNewExpServices();
         expectedServicesPage.chooseVehicle();
         expectedServicesPage.chooseService();
         expectedServicesPage.setLastServiceData();
         expectedServicesPage.clickSubmit();
         expectedServicesPage.chooseGroupe();
-        expectedServicesPage.enterTextIntoSearchByVehicle();
+        expectedServicesPage.enterTextIntoSearchByVehicle("Test");
         expectedServicesPage.deleteService();
 
     }

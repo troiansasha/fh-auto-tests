@@ -49,6 +49,7 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
+//    @FindBy(xpath = ".//*")
 
 
     public void openServices() {
@@ -94,8 +95,8 @@ public class FinishedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(setGroupe);
     }
 
-    public void enterTextIntoSearchByVehicle(){
-        actionsWithOurElements.enterTextIntoInput(inputServiceName, "Test");
+    public void enterTextIntoSearchByVehicle(String vehicle){
+        actionsWithOurElements.enterTextIntoInput(inputServiceName, vehicle);
         actionsWithOurElements.clickOnElement(buttonSearch);
     }
 
@@ -103,6 +104,11 @@ public class FinishedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(checkExpectedServicesPage);
         actionsWithOurElements.clickOnElement(buttonDelete);
         actionsWithOurElements.clickOnElement(buttonYes);
+    }
+
+    public boolean filterIsCorrect(){
+        return
+                actionsWithOurElements.elementIsDisplayed(setService);
     }
 
 }

@@ -15,16 +15,16 @@ public class PersonelDriversTest extends ParentTest {
         //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
-        personelDriversPage.headerIsCorrect();
-//        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
+//        personelDriversPage.headerIsCorrect();
+        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
         personelDriversPage.addNewDriver();
         personelDriversPage.dataDrivers();
         personelDriversPage.clickOnSetLanguage();
         personelDriversPage.clickSubmit();
         personelDriversPage.enterTextInToSearchByFullName("Test Test");
         homePage.timer3seconds();
-        personelDriversPage.driverIsCorrect();
-//        checkExpectedResult("Driver is not find", true, personelDriversPage.driverIsCorrect());
+//        personelDriversPage.driverIsCorrect();
+        checkExpectedResult("Driver is not find", true, personelDriversPage.driverIsCorrect());
         personelDriversPage.deleteDriver();
 
     }

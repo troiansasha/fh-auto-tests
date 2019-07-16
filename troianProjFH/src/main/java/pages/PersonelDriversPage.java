@@ -107,7 +107,7 @@ public class PersonelDriversPage extends ParentPage {
     }
 
     public void enterTextInToSearchByFullName(String fullName) {
-        actionsWithOurElements.enterTextIntoInput(searchByFullName, "Test Test");
+        actionsWithOurElements.enterTextIntoInput(searchByFullName, fullName);
         actionsWithOurElements.clickOnElement(buttonSearch);
     }
 
