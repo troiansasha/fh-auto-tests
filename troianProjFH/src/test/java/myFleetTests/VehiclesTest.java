@@ -5,11 +5,11 @@ import parentTest.ParentTest;
 
 public class VehiclesTest extends ParentTest {
 
-    final String vehicleName = "AA010";
-    final String vehicleLicensePlate = "ssss";
-    final String vehiclePhoneNumber = "37066755779";
-    final String vehicleType = "Mega Truck";
-    final String department = "UA-01-Kiev";
+    final String VEHICLE_NAME = "AA010";
+    final String VEHICLE_LICENSE_PLATE = "ssss";
+    final String VEHICLE_PHONE_NUMBER = "37066755779";
+    final String VEHICLE_TYPE = "Mega Truck";
+    final String DEPARTMENT = "UA-01-Kiev";
 
 
     @Test
@@ -24,7 +24,7 @@ public class VehiclesTest extends ParentTest {
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page My Fleet/Vehicles not opened", true, vehiclesPage.headerIsCorrect());
-        vehiclesPage.enterTextInToInputVehicleName(vehicleName);
+        vehiclesPage.enterTextInToInputVehicleName(VEHICLE_NAME);
         vehiclesPage.filterIsCorrectName();
         checkExpectedResult("Vehicle not find", true, vehiclesPage.filterIsCorrectName());
     }
@@ -41,7 +41,7 @@ public class VehiclesTest extends ParentTest {
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page My Fleet/Vehicles not opened", true, vehiclesPage.headerIsCorrect());
-        vehiclesPage.enterTextInToInputVehicleLicensePlate(vehicleLicensePlate);
+        vehiclesPage.enterTextInToInputVehicleLicensePlate(VEHICLE_LICENSE_PLATE);
         vehiclesPage.filterIsCorrectLicesePlate();
         checkExpectedResult("Vehicle not find", true, vehiclesPage.filterIsCorrectLicesePlate());
     }
@@ -58,7 +58,7 @@ public class VehiclesTest extends ParentTest {
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page My Fleet/Vehicles not opened", true, vehiclesPage.headerIsCorrect());
-        vehiclesPage.enterTextInToInputVehiclePhoneNumber(vehiclePhoneNumber);
+        vehiclesPage.enterTextInToInputVehiclePhoneNumber(VEHICLE_PHONE_NUMBER);
         vehiclesPage.filterIsCorrectPhoneNumber();
         checkExpectedResult("Vehicle not find", true, vehiclesPage.filterIsCorrectPhoneNumber());
     }
@@ -75,7 +75,7 @@ public class VehiclesTest extends ParentTest {
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page My Fleet/Vehicles not opened", true, vehiclesPage.headerIsCorrect());
-        vehiclesPage.selectVehicleTypeFromDropdown(vehicleType);
+        vehiclesPage.selectVehicleTypeFromDropdown(VEHICLE_TYPE);
         vehiclesPage.filterIsCorrectVehicleType();
         checkExpectedResult("Vehicle not find", true, vehiclesPage.filterIsCorrectVehicleType());
     }
@@ -92,7 +92,7 @@ public class VehiclesTest extends ParentTest {
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page My Fleet/Vehicles not opened", true, vehiclesPage.headerIsCorrect());
-        vehiclesPage.selectDepartmentFromDropdown(department);
+        vehiclesPage.selectDepartmentFromDropdown(DEPARTMENT);
         vehiclesPage.filterIsCorrectDepartment();
         checkExpectedResult("Vehicle not find", true, vehiclesPage.filterIsCorrectDepartment());
     }
@@ -103,7 +103,7 @@ public class VehiclesTest extends ParentTest {
 
 
 
-    
+
 
 
 }

@@ -52,9 +52,9 @@ public class ParentTest {
 
 
 
-    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResalt){
+    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResult){
 
-        Assert.assertEquals(message, expectedResult, actualResalt);
+        Assert.assertEquals(message, expectedResult, actualResult);
 
     }
 

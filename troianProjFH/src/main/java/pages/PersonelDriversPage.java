@@ -123,7 +123,7 @@ public class PersonelDriversPage extends ParentPage {
         actionsWithOurElements.enterTextIntoInput(inputFullName, "Edit Test");
         actionsWithOurElements.enterTextIntoInput(inputDriverCard, "5321654987848751");
         actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, "00000000001");
-        actionsWithOurElements.clickOnElement(buttonSubmit);//
+        actionsWithOurElements.clickOnElement(buttonSubmit);
     }
 
     public void deleteDriver() {
