@@ -5,6 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 public class ActionsWithOurElements {
@@ -77,6 +78,35 @@ public class ActionsWithOurElements {
         }
     }
 
+    public void setStatusToCheckBox(WebElement checkBox, String status){
+        boolean isStatusCheck = "check".equals(status.toLowerCase());
+        boolean isStatusUncheck = "uncheck".equals(status.toLowerCase());
+        if (isStatusCheck || isStatusUncheck){
+            if (checkBox.isSelected() && isStatusCheck){
+                logger.info("CheckBox is already checked");
+            }else if (checkBox.isSelected() && isStatusUncheck){
+                clickOnElement(checkBox);
+            }else if (!checkBox.isSelected() && isStatusCheck){
+                clickOnElement(checkBox);
+            }else if (!checkBox.isSelected() && isStatusUncheck){
+                logger.info("CheckBox is already unchecked");
+            }
+        }else {
+            Assert.fail("Status undefined");
+        }
+    }
 
+
+
+    public void clickOnSearchButton(){
+
+        try {
+            webDriver.findElement(By.xpath(".//*[text()=' Search ']")).click();
+            logger.info("Click search button");
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+    }
 
 }

@@ -28,8 +28,8 @@ public class PersonelDriversPage extends ParentPage {
     private WebElement buttonSubmit;
     @FindBy(name="fullName")
     private WebElement searchByFullName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(xpath=".//*[text()=\'Edit\']")
     private WebElement buttonEdit;
     @FindBy(xpath=".//*[text()=\'Delete\']")
@@ -108,7 +108,7 @@ public class PersonelDriversPage extends ParentPage {
 
     public void enterTextInToSearchByFullName(String fullName) {
         actionsWithOurElements.enterTextIntoInput(searchByFullName, fullName);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public void editDriverBack() {
@@ -138,7 +138,7 @@ public class PersonelDriversPage extends ParentPage {
 
     public void enterTextInToSearchByDriverCard(String driverCard) {
         actionsWithOurElements.enterTextIntoInput(searchByDriverCard, "1578487894561235");
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean driverIsCorrect() {

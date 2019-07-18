@@ -19,8 +19,8 @@ public class VehiclesPage extends ParentPage {
     private WebElement checkVehiclesPage;
     @FindBy(id="plateNumber")
     private WebElement inputVehicleName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(xpath = ".//*[text()=' AA010 ']")
     private WebElement vehicleNameIsCorrrect;
     @FindBy(id = "licensePlateNumber")
@@ -53,7 +53,7 @@ public class VehiclesPage extends ParentPage {
 
     public void enterTextInToInputVehicleName(String vehicleName){
         actionsWithOurElements.enterTextIntoInput(inputVehicleName, vehicleName);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean filterIsCorrectName(){
@@ -63,7 +63,7 @@ public class VehiclesPage extends ParentPage {
 
     public void enterTextInToInputVehicleLicensePlate(String licensePlate){
         actionsWithOurElements.enterTextIntoInput(inputVehicleLicensePlate, licensePlate);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean filterIsCorrectLicesePlate(){
@@ -73,7 +73,7 @@ public class VehiclesPage extends ParentPage {
 
     public void enterTextInToInputVehiclePhoneNumber(String phoneNumber){
         actionsWithOurElements.enterTextIntoInput(inputVehiclePhoneNumber, phoneNumber);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean filterIsCorrectPhoneNumber(){
@@ -84,7 +84,7 @@ public class VehiclesPage extends ParentPage {
 
     public void selectVehicleTypeFromDropdown(String vehicleType) {
         actionsWithOurElements.selectTextInDD(vehicleTypeDD, vehicleType);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean filterIsCorrectVehicleType() {
@@ -94,7 +94,7 @@ public class VehiclesPage extends ParentPage {
 
     public void selectDepartmentFromDropdown(String departmentType) {
         actionsWithOurElements.selectTextInDD(departmentDD, departmentType);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean filterIsCorrectDepartment() {

@@ -39,8 +39,8 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement buttonSubmit;
     @FindBy(id = "serviceName")
     private WebElement inputServiceName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(id = "groupName")
     private WebElement chooseGroupe;
     @FindBy(xpath = ".//*[text()=' All Vehicles ']")
@@ -97,7 +97,7 @@ public class FinishedServicesPage extends ParentPage {
 
     public void enterTextIntoSearchByVehicle(String vehicle){
         actionsWithOurElements.enterTextIntoInput(inputServiceName, vehicle);
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public void deleteService(){
