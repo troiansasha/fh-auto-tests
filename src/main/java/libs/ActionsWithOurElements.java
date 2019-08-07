@@ -15,9 +15,12 @@ public class ActionsWithOurElements {
 
     public void enterTextIntoInput(WebElement element, String text) {
         try {
+
+
             element.clear();
             element.sendKeys(text);
             logger.info(text + " was inputted into input ");
+
 
         } catch (Exception e) {
             logger.error("Can not work with element");
@@ -34,16 +37,4 @@ public class ActionsWithOurElements {
             Assert.fail("Can not work with element");
         }
     }
-
-    public boolean elementIsDisplayed(WebElement webElement) {
-        try {
-            return
-                webElement.isDisplayed();
-
-        } catch (Exception e) {
-            return false;
-
-        }
-    }
-
 }

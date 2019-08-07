@@ -12,7 +12,7 @@ abstract public class ParentPage {
     WebDriver webDriver;
 
     Logger logger = Logger.getLogger(getClass());
-    protected ActionsWithOurElements actionsWithOurElements;
+    ActionsWithOurElements actionsWithOurElements;
 
     public ParentPage(WebDriver webDriver) {
 
