@@ -35,8 +35,8 @@ public class ExpectedServicesPage extends ParentPage {
     private WebElement buttonSubmit;
     @FindBy(id = "serviceName")
     private WebElement inputVehicleName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(id = "groupName")
     private WebElement chooseGroupe;
     @FindBy(xpath = ".//*[text()=' All Vehicles ']")
@@ -45,6 +45,8 @@ public class ExpectedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
+    @FindBy(xpath = ".//*[text()='Edit']")
+    private WebElement buttonEdit;
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);
@@ -88,9 +90,9 @@ public class ExpectedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(setGroupe);
     }
 
-    public void enterTextIntoSearchByVehicle(){
-        actionsWithOurElements.enterTextIntoInput(inputVehicleName, "Test");
-        actionsWithOurElements.clickOnElement(buttonSearch);
+    public void enterTextIntoSearchByVehicle(String vehicle){
+        actionsWithOurElements.enterTextIntoInput(inputVehicleName, vehicle);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public void deleteService(){
@@ -99,6 +101,9 @@ public class ExpectedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(buttonYes);
     }
 
+    public void editService(){
+        actionsWithOurElements.clickOnElement(buttonEdit);
+    }
 
 
 

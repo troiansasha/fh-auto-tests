@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4ac0ef6-2d07-4c76-b567-8a2499feeb1f" name="Default Changelist" comment="First refactoring">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/../keys.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../keys.txt.pub" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../troianProjFH.rar" afterDir="false" />
@@ -15,6 +16,12 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/personelTest/PersonelDriversTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/personelTest/PersonelUsersTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/personelTest/PersonnelDepartmentsTest.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/myFleetPages/VehiclesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/servicesPages/ExpectedServicesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/servicesPages/FinishedServicesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/myFleetTests/VehiclesTest.java" afterDir="false" />
+>>>>>>> Oyehorov
       <change afterPath="$PROJECT_DIR$/src/test/java/servicesTest/ExpectedServicesTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/servicesTest/FinishedServiceTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/classes/META-INF/troianProj.kotlin_module" afterDir="false" />
@@ -37,10 +44,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+=======
+>>>>>>> Oyehorov
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
@@ -50,6 +60,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_5.xml" afterDir="false" />
@@ -63,35 +74,46 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+>>>>>>> Oyehorov
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonelDriversPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonelDriversPage.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonnelUsserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonelUserPage.java" afterDir="false" />
+=======
+>>>>>>> Oyehorov
       <change beforePath="$PROJECT_DIR$/src/main/java/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loginTest/LoginTestWithPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loginTest/LoginTestWithPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/personelTest/PersonelDriversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/personelTest/PersonelDriversTest.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/personnelTest/PersonnelUssersTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/libs/ActionsWithOurElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/ActionsWithOurElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/target/classes/libs/ActionsWithOurElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/libs/ActionsWithOurElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+>>>>>>> Oyehorov
       <change beforePath="$PROJECT_DIR$/target/classes/pages/ParentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ParentPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/PersonelDriversPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PersonelDriversPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/PersonnelUsserPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/loginTest/LoginTestWithPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/loginTest/LoginTestWithPageObject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/parentTest/ParentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/parentTest/ParentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/personelTest/PersonelDriversTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/personelTest/PersonelDriversTest.class" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/target/test-classes/personnelTest/PersonnelUssersTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/troianProj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/troianProj.iml" afterDir="false" />
+=======
+>>>>>>> Oyehorov
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +123,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -229,6 +252,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> Oyehorov
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -245,163 +270,15 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/loginTest/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonnelDepartments.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonnelDepartmentsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/loginTest/LoginTestWithPageObject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/PersonnelUsserPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/PersonelUsserPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/PersonelUserPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonnelUssersTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonelUssersTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonelDriversTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personnelTest/PersonelUsersTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personelTest/PersonelUsersTest.java" />
-        <option value="$PROJECT_DIR$/log/qalight.log" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/ChangeLanguagePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/PersonelDriversPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/servicesTest/expectedServices.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/servicesPages/expectedServicesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/servicesTest/expectedServicesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/personelTest/PersonelDriversTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/servicesPages/ExpectedServicesPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/servicesTest/ExpectedServicesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/servicesTest/FinishedServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/servicesPages/FinishedServicesPage.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2" />
-    <option name="y" value="522" />
-    <option name="width" value="1920" />
-    <option name="height" value="522" />
-  </component>
+  <component name="ProjectId" id="1Ooe7fpi0Mf4KscOmxf04hLHcTW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="servicesPages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="loginTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parentTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="personelTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="troianProjFH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="troianProjFH" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servicesTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Drivers" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -424,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FinishedServiceTest.validServicesExpectedCreate">
+  <component name="RunManager" selected="JUnit.ExpectedServicesTest.validServicesExpectedEditSave">
     <configuration name="ExpectedServicesTest.validServicesExpectedCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="troianProj" />
       <extension name="coverage">
@@ -441,7 +318,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinishedServiceTest.validServicesExpectedCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExpectedServicesTest.validServicesExpectedEditSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="troianProj" />
       <extension name="coverage">
         <pattern>
@@ -450,8 +327,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="servicesTest" />
-      <option name="MAIN_CLASS_NAME" value="servicesTest.FinishedServiceTest" />
-      <option name="METHOD_NAME" value="validServicesExpectedCreate" />
+      <option name="MAIN_CLASS_NAME" value="servicesTest.ExpectedServicesTest" />
+      <option name="METHOD_NAME" value="validServicesExpectedEditSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -506,7 +383,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FinishedServiceTest.validServicesExpectedCreate" />
+        <item itemvalue="JUnit.ExpectedServicesTest.validServicesExpectedEditSave" />
         <item itemvalue="JUnit.ExpectedServicesTest.validServicesExpectedCreate" />
         <item itemvalue="JUnit.PersonelDriversTest.validPersonelDriversCreate" />
         <item itemvalue="JUnit.PersonelDriversTest" />
@@ -515,7 +392,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\oyehorov\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -549,6 +426,7 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="ExpectedServicesTest_validServicesExpectedCreate - 2019.07.11 at 14h 51m 43s.xml">
       <configuration name="ExpectedServicesTest.validServicesExpectedCreate" configurationId="JUnit" />
@@ -613,26 +491,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
+=======
+>>>>>>> Oyehorov
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -658,6 +525,7 @@
     <MESSAGE value="First refactoring" />
     <option name="LAST_COMMIT_MESSAGE" value="First refactoring" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/mainPack/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mainPack/App.java" />
@@ -902,6 +770,8 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> Oyehorov
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">

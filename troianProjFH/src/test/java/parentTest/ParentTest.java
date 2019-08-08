@@ -1,11 +1,13 @@
 package parentTest;
 
+import myFleetTests.VehiclesTest;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
+import pages.myFleetPages.VehiclesPage;
 import pages.servicesPages.ExpectedServicesPage;
 import pages.servicesPages.FinishedServicesPage;
 
@@ -21,11 +23,12 @@ public class ParentTest {
     protected ChangeLanguagePage changeLanguagePage;
     protected ExpectedServicesPage expectedServicesPage;
     protected FinishedServicesPage finishedServicesPage;
+    protected VehiclesPage vehiclesPage;
 
     //Precondition
     @Before
     public void setUp() {
-        File file = new File("./src/olddrivers/chromedriver.exe");
+        File file = new File("./src/drivers/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 
         webDriver = new ChromeDriver();
@@ -40,6 +43,7 @@ public class ParentTest {
     changeLanguagePage = new ChangeLanguagePage(webDriver);
     expectedServicesPage = new ExpectedServicesPage(webDriver);
     finishedServicesPage = new FinishedServicesPage(webDriver);
+    vehiclesPage = new VehiclesPage(webDriver);
     }
     @After
     public void tearDown () {
@@ -48,9 +52,9 @@ public class ParentTest {
 
 
 
-    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResalt){
+    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResult){
 
-        Assert.assertEquals(message, expectedResult, actualResalt);
+        Assert.assertEquals(message, expectedResult, actualResult);
 
     }
 

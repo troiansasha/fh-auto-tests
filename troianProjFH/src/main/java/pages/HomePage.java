@@ -15,11 +15,10 @@ public class HomePage extends ParentPage {
 
     public boolean isItCorrectUrl(){
             try {
-
-                        logger.info(webDriver.getCurrentUrl());
+                logger.info(webDriver.getCurrentUrl());
                 Assert.assertEquals("https://uat.fleethand.com/monitor",
-                        webDriver.getCurrentUrl());
-                        logger.info("It is expected URL");
+                webDriver.getCurrentUrl());
+                logger.info("It is expected URL");
 
             }catch (Exception e) {
                 logger.error("Is not expected URL");

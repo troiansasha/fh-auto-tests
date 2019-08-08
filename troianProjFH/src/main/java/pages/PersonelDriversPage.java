@@ -28,8 +28,8 @@ public class PersonelDriversPage extends ParentPage {
     private WebElement buttonSubmit;
     @FindBy(name="fullName")
     private WebElement searchByFullName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(xpath=".//*[text()=\'Edit\']")
     private WebElement buttonEdit;
     @FindBy(xpath=".//*[text()=\'Delete\']")
@@ -107,8 +107,8 @@ public class PersonelDriversPage extends ParentPage {
     }
 
     public void enterTextInToSearchByFullName(String fullName) {
-        actionsWithOurElements.enterTextIntoInput(searchByFullName, "Test Test");
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.enterTextIntoInput(searchByFullName, fullName);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public void editDriverBack() {
@@ -123,7 +123,7 @@ public class PersonelDriversPage extends ParentPage {
         actionsWithOurElements.enterTextIntoInput(inputFullName, "Edit Test");
         actionsWithOurElements.enterTextIntoInput(inputDriverCard, "5321654987848751");
         actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, "00000000001");
-        actionsWithOurElements.clickOnElement(buttonSubmit);//
+        actionsWithOurElements.clickOnElement(buttonSubmit);
     }
 
     public void deleteDriver() {
@@ -138,7 +138,7 @@ public class PersonelDriversPage extends ParentPage {
 
     public void enterTextInToSearchByDriverCard(String driverCard) {
         actionsWithOurElements.enterTextIntoInput(searchByDriverCard, "1578487894561235");
-        actionsWithOurElements.clickOnElement(buttonSearch);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public boolean driverIsCorrect() {
