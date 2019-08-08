@@ -16,7 +16,11 @@ public class PersonelDriversTest extends ParentTest {
         changeLanguagePage.clickOnLanguage();
         changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
-
+        //Go to personnel drivers
+        personelDriversPage.openPersonel();
+        personelDriversPage.openPersonelDrivers();
+//        personelDriversPage.headerIsCorrect();
+        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
     }
 
     @Test
@@ -42,10 +46,10 @@ public class PersonelDriversTest extends ParentTest {
     @Test
     public void validPersonelDriversEditSave()  {
 //
-        //Go to personnel drivers
-        personelDriversPage.openPersonel();
-        personelDriversPage.openPersonelDrivers();
-        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
+//        //Go to personnel drivers
+//        personelDriversPage.openPersonel();
+//        personelDriversPage.openPersonelDrivers();
+//        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
         personelDriversPage.addNewDriver();
         personelDriversPage.dataDrivers();
         personelDriversPage.clickOnSetLanguage();
@@ -63,11 +67,11 @@ public class PersonelDriversTest extends ParentTest {
     @Test
     public void validPersonelDriversEditBack()  {
 //
-        //Go to personnel drivers
-        personelDriversPage.openPersonel();
-        personelDriversPage.openPersonelDrivers();
-//        personelDriversPage.headerIsCorrect();
-        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
+//        //Go to personnel drivers
+//        personelDriversPage.openPersonel();
+//        personelDriversPage.openPersonelDrivers();
+////        personelDriversPage.headerIsCorrect();
+//        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
         personelDriversPage.addNewDriver();
         personelDriversPage.dataDrivers();
         personelDriversPage.clickOnSetLanguage();
@@ -106,11 +110,11 @@ public class PersonelDriversTest extends ParentTest {
     @Test
     public void validPersonelDriversSearchByCard()  {
 //
-        //Go to personnel drivers
-        personelDriversPage.openPersonel();
-        personelDriversPage.openPersonelDrivers();
-//        personelDriversPage.headerIsCorrect();
-        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
+//        //Go to personnel drivers
+//        personelDriversPage.openPersonel();
+//        personelDriversPage.openPersonelDrivers();
+////        personelDriversPage.headerIsCorrect();
+//        checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
         personelDriversPage.addNewDriver();
         personelDriversPage.dataDrivers();
         personelDriversPage.clickOnSetLanguage();

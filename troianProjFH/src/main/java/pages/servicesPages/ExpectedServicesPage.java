@@ -45,6 +45,8 @@ public class ExpectedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
+    @FindBy(xpath = ".//*[text()='Edit']")
+    private WebElement buttonEdit;
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);
@@ -99,7 +101,9 @@ public class ExpectedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(buttonYes);
     }
 
-
+    public void editService(){
+        actionsWithOurElements.clickOnElement(buttonEdit);
+    }
 
 
 
