@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/troianProj.iml" filepath="$PROJECT_DIR$/troianProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fh-auto-tests.iml" filepath="$PROJECT_DIR$/.idea/fh-auto-tests.iml" />
     </modules>
   </component>
 </project>
