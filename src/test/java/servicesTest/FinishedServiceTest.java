@@ -16,16 +16,17 @@ public class FinishedServiceTest extends ParentTest {
         homePage.timer10seconds();
         finishedServicesPage.openServices();
         finishedServicesPage.openSetvicesExpected();
-        finishedServicesPage.headerIsCorrect();
+//        finishedServicesPage.headerIsCorrect();
+        checkExpectedResult("Page Services/Finished Services not opened", true, finishedServicesPage.headerIsCorrect());
         finishedServicesPage.addNewExpServices();
         finishedServicesPage.chooseVehicle();
         finishedServicesPage.chooseService();
         finishedServicesPage.setServiceDate();
         finishedServicesPage.clickSubmit();
         finishedServicesPage.chooseGroupe();
-        finishedServicesPage.enterTextIntoSearchByVehicle();
+        finishedServicesPage.enterTextIntoSearchByVehicle("Test");
         finishedServicesPage.deleteService();
-
+        checkExpectedResult("service has been removed", false, finishedServicesPage.filterIsCorrect());
     }
 
 

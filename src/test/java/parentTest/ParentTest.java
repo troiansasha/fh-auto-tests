@@ -1,11 +1,17 @@
 package parentTest;
 
+import geozonesTest.GeozonesTest;
+import myFleetTests.VehiclesTest;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
+import pages.GeozonesPages.GeozonesPage;
+import pages.myFleetPages.VehiclesPage;
+import pages.servicesPages.ExpectedServicesPage;
+import pages.servicesPages.FinishedServicesPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -15,13 +21,17 @@ public class ParentTest {
     protected LoginPage loginPage;
     protected HomePage homePage;
     protected PersonelUserPage personelUserPage;
+    protected PersonelDriversPage personelDriversPage;
     protected ChangeLanguagePage changeLanguagePage;
-    protected PersonelDepartmentsPage personelDepartmentsPage;
+    protected ExpectedServicesPage expectedServicesPage;
+    protected FinishedServicesPage finishedServicesPage;
+    protected VehiclesPage vehiclesPage;
+    protected GeozonesPage geozonesPage;
 
     //Precondition
     @Before
     public void setUp() {
-        File file = new File("./src/olddrivers/chromedriver.exe");
+        File file = new File("./src/drivers/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 
         webDriver = new ChromeDriver();
@@ -31,9 +41,13 @@ public class ParentTest {
 
     loginPage = new LoginPage(webDriver);
     homePage = new HomePage(webDriver);
-    changeLanguagePage = new ChangeLanguagePage(webDriver);
     personelUserPage = new PersonelUserPage(webDriver);
-    personelDepartmentsPage = new PersonelDepartmentsPage(webDriver);
+    personelDriversPage = new PersonelDriversPage(webDriver);
+    changeLanguagePage = new ChangeLanguagePage(webDriver);
+    expectedServicesPage = new ExpectedServicesPage(webDriver);
+    finishedServicesPage = new FinishedServicesPage(webDriver);
+    vehiclesPage = new VehiclesPage(webDriver);
+    geozonesPage = new GeozonesPage(webDriver);
     }
     @After
     public void tearDown () {
@@ -42,13 +56,13 @@ public class ParentTest {
 
 
 
-    public void checkExpectedResult (String message, boolean expectedResult, boolean actualResalt){
+    public void checkExpectedResult(String message, boolean expectedResult, boolean actualResult){
 
-        Assert.assertEquals(message, expectedResult, actualResalt);
+        Assert.assertEquals(message, expectedResult, actualResult);
 
     }
 
-//    public void checkExpectedResult (String message, boolean actualResalt){
-//        checkExpectedResult();
+//    public void checkExpectedResult (String message, boolean actualResult){
+//        checkExpectedResult(message, actualResult);
 //    }
 }

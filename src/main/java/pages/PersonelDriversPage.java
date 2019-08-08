@@ -28,8 +28,8 @@ public class PersonelDriversPage extends ParentPage {
     private WebElement buttonSubmit;
     @FindBy(name="fullName")
     private WebElement searchByFullName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(xpath=".//*[text()=\'Edit\']")
     private WebElement buttonEdit;
     @FindBy(xpath=".//*[text()=\'Delete\']")
@@ -61,89 +61,89 @@ public class PersonelDriversPage extends ParentPage {
         actionsWithOurElements.clickOnElement(openDrivers);
     }
 
-//    public boolean headerIsCorrect() {
-//        return
-//            actionsWithOurElements.elementIsDisplayed(checkDriversPage);
+    public boolean headerIsCorrect() {
+        return
+            actionsWithOurElements.elementIsDisplayed(checkDriversPage);
+    }
+
+    public boolean editDriverIsCorrect(){
+        return
+                actionsWithOurElements.elementIsDisplayed(editDriverName);
+    }
+
+    public void addNewDriver(){
+        actionsWithOurElements.clickOnElement(driversNew);
+    }
+
+    public void enterTextInToInputFullName(String fullName) {
+        actionsWithOurElements.enterTextIntoInput(inputFullName, fullName);
+    }
+
+    public void enterTextInToInputDriverCardNumber(String driverCardNumber) {
+        actionsWithOurElements.enterTextIntoInput(inputDriverCard, driverCardNumber);
+    }
+
+    public void enterTextInToInputPhoneNumber(String phoneNumber) {
+        actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, phoneNumber);
+    }
+
+    public void inputDataDrivers(String fullName, String driverCardNumber, String phoneNumber){
+        enterTextInToInputFullName(fullName);
+        enterTextInToInputDriverCardNumber(driverCardNumber);
+        enterTextInToInputPhoneNumber(phoneNumber);
+    }
+
+    public void dataDrivers(){
+        inputDataDrivers("Test Test", "1578487894561235", "581365811");
+    }
+
+    public void clickOnSetLanguage() {
+        actionsWithOurElements.clickOnElement(setLanguage);
+        actionsWithOurElements.clickOnElement(chooseLanguage);
+    }
+
+    public void clickSubmit() {
+        actionsWithOurElements.clickOnElement(buttonSubmit);//
+    }
+
+    public void enterTextInToSearchByFullName(String fullName) {
+        actionsWithOurElements.enterTextIntoInput(searchByFullName, fullName);
+        actionsWithOurElements.clickOnSearchButton();
+    }
+
+    public void editDriverBack() {
+        actionsWithOurElements.clickOnElement(checkDriversPage);
+        actionsWithOurElements.clickOnElement(buttonEdit);
+        actionsWithOurElements.clickOnElement(buttonBack);
+    }
+
+    public void editDriverSave() {
+        actionsWithOurElements.clickOnElement(checkDriversPage);
+        actionsWithOurElements.clickOnElement(buttonEdit);
+        actionsWithOurElements.enterTextIntoInput(inputFullName, "Edit Test");
+        actionsWithOurElements.enterTextIntoInput(inputDriverCard, "5321654987848751");
+        actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, "00000000001");
+        actionsWithOurElements.clickOnElement(buttonSubmit);
+    }
+
+    public void deleteDriver() {
+        actionsWithOurElements.clickOnElement(checkDriversPage);
+        actionsWithOurElements.clickOnElement(buttonDelete);
+        actionsWithOurElements.clickOnElement(buttonYes);
+    }
+
+//    public void enterTextInToSearchByFullNameClear(String fullName) {
+//        actionsWithOurElements.enterTextIntoInput(searchByFullName, "");
 //    }
-//
-//    public boolean editDriverIsCorrect(){
-//        return
-//                actionsWithOurElements.elementIsDisplayed(editDriverName);
-//    }
-//
-//    public void addNewDriver(){
-//        actionsWithOurElements.clickOnElement(driversNew);
-//    }
-//
-//    public void enterTextInToInputFullName(String fullName) {
-//        actionsWithOurElements.enterTextIntoInput(inputFullName, fullName);
-//    }
-//
-//    public void enterTextInToInputDriverCardNumber(String driverCardNumber) {
-//        actionsWithOurElements.enterTextIntoInput(inputDriverCard, driverCardNumber);
-//    }
-//
-//    public void enterTextInToInputPhoneNumber(String phoneNumber) {
-//        actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, phoneNumber);
-//    }
-//
-//    public void inputDataDrivers(String fullName, String driverCardNumber, String phoneNumber){
-//        enterTextInToInputFullName(fullName);
-//        enterTextInToInputDriverCardNumber(driverCardNumber);
-//        enterTextInToInputPhoneNumber(phoneNumber);
-//    }
-//
-//    public void dataDrivers(){
-//        inputDataDrivers("Test Test", "1578487894561235", "581365811");
-//    }
-//
-//    public void clickOnSetLanguage() {
-//        actionsWithOurElements.clickOnElement(setLanguage);
-//        actionsWithOurElements.clickOnElement(chooseLanguage);
-//    }
-//
-//    public void clickSubmit() {
-//        actionsWithOurElements.clickOnElement(buttonSubmit);//
-//    }
-//
-//    public void enterTextInToSearchByFullName(String fullName) {
-//        actionsWithOurElements.enterTextIntoInput(searchByFullName, "Test Test");
-//        actionsWithOurElements.clickOnElement(buttonSearch);
-//    }
-//
-//    public void editDriverBack() {
-//        actionsWithOurElements.clickOnElement(checkDriversPage);
-//        actionsWithOurElements.clickOnElement(buttonEdit);
-//        actionsWithOurElements.clickOnElement(buttonBack);
-//    }
-//
-//    public void editDriverSave() {
-//        actionsWithOurElements.clickOnElement(checkDriversPage);
-//        actionsWithOurElements.clickOnElement(buttonEdit);
-//        actionsWithOurElements.enterTextIntoInput(inputFullName, "Edit Test");
-//        actionsWithOurElements.enterTextIntoInput(inputDriverCard, "5321654987848751");
-//        actionsWithOurElements.enterTextIntoInput(inputPhoneNumber, "00000000001");
-//        actionsWithOurElements.clickOnElement(buttonSubmit);//
-//    }
-//
-//    public void deleteDriver() {
-//        actionsWithOurElements.clickOnElement(checkDriversPage);
-//        actionsWithOurElements.clickOnElement(buttonDelete);
-//        actionsWithOurElements.clickOnElement(buttonYes);
-//    }
-//
-////    public void enterTextInToSearchByFullNameClear(String fullName) {
-////        actionsWithOurElements.enterTextIntoInput(searchByFullName, "");
-////    }
-//
-//    public void enterTextInToSearchByDriverCard(String driverCard) {
-//        actionsWithOurElements.enterTextIntoInput(searchByDriverCard, "1578487894561235");
-//        actionsWithOurElements.clickOnElement(buttonSearch);
-//    }
-//
-//    public boolean driverIsCorrect() {
-//        return
-//        actionsWithOurElements.elementIsDisplayed(driverName);
-//    }
+
+    public void enterTextInToSearchByDriverCard(String driverCard) {
+        actionsWithOurElements.enterTextIntoInput(searchByDriverCard, "1578487894561235");
+        actionsWithOurElements.clickOnSearchButton();
+    }
+
+    public boolean driverIsCorrect() {
+        return
+        actionsWithOurElements.elementIsDisplayed(driverName);
+    }
 
 }
