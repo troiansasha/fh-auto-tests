@@ -33,15 +33,14 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement clickSetServiceDate;
     @FindBy(xpath = ".//*[text()='11']")
     private WebElement chooseSetServiceDate;
-
 //    @FindBy(id = "serviceDate")
 //    private WebElement setLastService;
     @FindBy(xpath=".//*[text()=' Save ']")
     private WebElement buttonSubmit;
     @FindBy(id = "serviceName")
     private WebElement inputServiceName;
-    @FindBy(xpath=".//*[text()=' Search ']")
-    private WebElement buttonSearch;
+//    @FindBy(xpath=".//*[text()=' Search ']")
+//    private WebElement buttonSearch;
     @FindBy(id = "groupName")
     private WebElement chooseGroupe;
     @FindBy(xpath = ".//*[text()=' All Vehicles ']")
@@ -50,6 +49,8 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
     private WebElement buttonYes;
+//    @FindBy(xpath = ".//*")
+
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);
@@ -94,15 +95,20 @@ public class FinishedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(setGroupe);
     }
 
-    public void enterTextIntoSearchByVehicle(){
-        actionsWithOurElements.enterTextIntoInput(inputServiceName, "Test");
-        actionsWithOurElements.clickOnElement(buttonSearch);
+    public void enterTextIntoSearchByVehicle(String vehicle){
+        actionsWithOurElements.enterTextIntoInput(inputServiceName, vehicle);
+        actionsWithOurElements.clickOnSearchButton();
     }
 
     public void deleteService(){
         actionsWithOurElements.clickOnElement(checkExpectedServicesPage);
         actionsWithOurElements.clickOnElement(buttonDelete);
         actionsWithOurElements.clickOnElement(buttonYes);
+    }
+
+    public boolean filterIsCorrect(){
+        return
+                actionsWithOurElements.elementIsDisplayed(setService);
     }
 
 }
