@@ -29,18 +29,18 @@ public class FinishedServicesPage extends ParentPage {
     private WebElement chooseService;
     @FindBy(xpath = ".//*[text()='TestTO']")
     private WebElement setService;
-    @FindBy(id = "pop-over-button")
+    @FindBy(xpath = ".//*[@class='ng-untouched ng-pristine ng-invalid ng-star-inserted']//div//div//button")
     private WebElement clickSetServiceDate;
     @FindBy(xpath = ".//*[text()='11']")
     private WebElement chooseSetServiceDate;
-//    @FindBy(id = "serviceDate")
-//    private WebElement setLastService;
+    @FindBy(id = "serviceData")
+    private WebElement setLastService;
     @FindBy(xpath=".//*[text()=' Save ']")
     private WebElement buttonSubmit;
     @FindBy(id = "serviceName")
     private WebElement inputServiceName;
-//    @FindBy(xpath=".//*[text()=' Search ']")
-//    private WebElement buttonSearch;
+    @FindBy(xpath=".//*[text()=' Close']")
+    private WebElement buttonClose;
     @FindBy(id = "groupName")
     private WebElement chooseGroupe;
     @FindBy(xpath = ".//*[text()=' All Vehicles ']")
@@ -56,7 +56,7 @@ public class FinishedServicesPage extends ParentPage {
         actionsWithOurElements.clickOnElement(services);
     }
 
-    public void openSetvicesExpected() {
+    public void openServicesExpected() {
         actionsWithOurElements.clickOnElement(expectedServices);
     }
 
@@ -84,13 +84,18 @@ public class FinishedServicesPage extends ParentPage {
     public void setServiceDate(){
         actionsWithOurElements.clickOnElement(clickSetServiceDate);
         actionsWithOurElements.clickOnElement(chooseSetServiceDate);
+        actionsWithOurElements.clickOnElement(buttonClose);
+    }
+
+    public void setOdometerData(String lastKiloMeters){
+        actionsWithOurElements.enterTextIntoInput(setLastService, lastKiloMeters);
     }
 
     public void clickSubmit(){
         actionsWithOurElements.clickOnElement(buttonSubmit);
     }
 
-    public void chooseGroupe(){
+    public void chooseGroup(){
         actionsWithOurElements.clickOnElement(chooseGroupe);
         actionsWithOurElements.clickOnElement(setGroupe);
     }
@@ -102,6 +107,7 @@ public class FinishedServicesPage extends ParentPage {
 
     public void deleteService(){
         actionsWithOurElements.clickOnElement(checkExpectedServicesPage);
+
         actionsWithOurElements.clickOnElement(buttonDelete);
         actionsWithOurElements.clickOnElement(buttonYes);
     }
