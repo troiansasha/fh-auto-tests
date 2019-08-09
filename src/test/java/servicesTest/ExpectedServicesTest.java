@@ -1,5 +1,6 @@
 package servicesTest;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import parentTest.ParentTest;
@@ -30,7 +31,7 @@ public class ExpectedServicesTest extends ParentTest {
         expectedServicesPage.setLastServiceData();
         expectedServicesPage.clickSubmit();
         expectedServicesPage.chooseGroupe();
-        expectedServicesPage.enterTextIntoSearchByVehicle("testto");
+
 
     }
 
@@ -47,9 +48,10 @@ public class ExpectedServicesTest extends ParentTest {
     }
 
 
-//    @After
-//    public void delete(){
-//        expectedServicesPage.deleteService();
-//    }
+    @After
+    public void delete(){
+        expectedServicesPage.deleteService();
+        expectedServicesPage.enterTextIntoSearchByVehicle("testto");
+    }
 
 }
