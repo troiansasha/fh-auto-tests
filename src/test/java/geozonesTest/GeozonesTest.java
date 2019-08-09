@@ -1,5 +1,6 @@
 package geozonesTest;
 
+import org.junit.After;
 import org.junit.Test;
 import parentTest.ParentTest;
 
@@ -53,9 +54,16 @@ public class GeozonesTest extends ParentTest {
         geozonesPage.openGeozonesPlanner();
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page Geozones/Planner not opened", true, geozonesPage.headerIsCorrectPlanner());
+        geozonesPage.addingNewGeozone();
+        geozonesPage.addingNewGeozoneCountry();
+        geozonesPage.enterTextInToInputTitle(TITLE_NAME);
+        geozonesPage.selectCountryTypeFromDropdown(COUNTRY_NAME);
+        checkExpectedResult("Title not find", true, geozonesPage.filterIsCorrectTitlegeozones());
+    }
 
-//        geozonesPage.enterTextInToInputFindTitleGeozone(TITLE_NAME);
-//        geozonesPage.filterIsCorrectTitlegeozones();
-//        checkExpectedResult("Vehicle not find", true, geozonesPage.filterIsCorrectTitlegeozones());
+
+    @After
+    public void deleteGeo(){
+        geozonesPage.deleteGeozone();
     }
 }
