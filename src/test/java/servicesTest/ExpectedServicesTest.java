@@ -1,9 +1,7 @@
 package servicesTest;
 
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import pages.LoginPage;
 import parentTest.ParentTest;
 
 public class ExpectedServicesTest extends ParentTest {
@@ -16,7 +14,7 @@ public class ExpectedServicesTest extends ParentTest {
         homePage.timer10seconds();
         expectedServicesPage.openServices();
         expectedServicesPage.openSetvicesExpected();
-//        expectedServicesPage.headerIsCorrect();
+        expectedServicesPage.headerIsCorrect();
         checkExpectedResult("Page Services/Expected Services not opened", true, expectedServicesPage.headerIsCorrect());
 
     }
