@@ -54,8 +54,8 @@ public class GeozonesTest extends ParentTest {
 //        vehiclesPage.headerIsCorrect();
         checkExpectedResult("Page Geozones/Planner not opened", true, geozonesPage.headerIsCorrectPlanner());
 
-        geozonesPage.enterTextInToInputFindTitleGeozone(TITLE_NAME);
-        geozonesPage.filterIsCorrectTitlegeozones();
-        checkExpectedResult("Vehicle not find", true, geozonesPage.filterIsCorrectTitlegeozones());
+//        geozonesPage.enterTextInToInputFindTitleGeozone(TITLE_NAME);
+//        geozonesPage.filterIsCorrectTitlegeozones();
+//        checkExpectedResult("Vehicle not find", true, geozonesPage.filterIsCorrectTitlegeozones());
     }
 }
