@@ -40,6 +40,10 @@ public class GeozonesPage extends ParentPage {
     private WebElement geozoneNameIsCorrrect;
     @FindBy(id = "delete_all")
     private WebElement deleteNewGeozones;
+    @FindBy(xpath=".//*[text()=' Delete marked ']")
+    private WebElement buttonDelete;
+    @FindBy(xpath = ".//*[text()=' Yes ']")
+    private WebElement buttonYes;
 
     public void openGeozonesPlanner(){
         actionsWithOurElements.clickOnElement(geozones);
@@ -73,5 +77,18 @@ public class GeozonesPage extends ParentPage {
     public boolean titleGeozonesIsDisplayed(){
         return
                 actionsWithOurElements.elementIsDisplayed(geozoneNameIsCorrrect);
+    }
+    public void enterTextInToInputFindTitleGeozone(String titleGeozone){
+        actionsWithOurElements.enterTextIntoInput(inputFilterTitle, titleGeozone);
+        actionsWithOurElements.clickOnSearchButton();
+    }
+    public boolean filterIsCorrectTitlegeozones(){
+        return
+                actionsWithOurElements.elementIsDisplayed(geozoneNameIsCorrrect);
+    }
+    public void deleteGeozone(){
+        actionsWithOurElements.clickOnElement(checkPlannerPage);
+        actionsWithOurElements.clickOnElement(buttonDelete);
+        actionsWithOurElements.clickOnElement(buttonYes);
     }
 }
