@@ -5,11 +5,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import java.util.concurrent.TimeUnit;
 
 public class LoginPage extends ParentPage {
 
-//    protected HomePage homePage;
 
     public LoginPage(WebDriver webDriver) {
         super(webDriver);
@@ -40,6 +38,7 @@ public class LoginPage extends ParentPage {
     public void enterTextInToInputPass(String password) {
         actionsWithOurElements.enterTextIntoInput(inputPassword, password );
 
+
     }
 
     public void clickOnButtonEnter() {
@@ -51,7 +50,6 @@ public class LoginPage extends ParentPage {
             Assert.fail("Can not work with element");
         }
     }
-
     public void loginWithData (String login, String password){
         openPage();
         enterTextInToInputLogin(login);
@@ -61,16 +59,13 @@ public class LoginPage extends ParentPage {
     }
 
     public void validLogin(){
-
-        loginWithData("test.fleethand@gmail.com", "1506milk");
+        loginWithData("troianwork@gmail.com", "1q2w3e4r5t");
     }
-
-//    public void clickOnButtonFlag() {
-//        webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//    public void clickOnButtonUser() {
 //        try {
-//            WebElement flagButton = webDriver.findElement(By.className("dropdown-toggle notification"));
-//            flagButton.click();
-//            logger.info("Button flag was clicked");
+//            WebElement userButton = webDriver.findElement(By.xpath(".//*[text()=\' O. Troian1 \']"));
+//            userButton.click();
+//            logger.info("Button User was clicked");
 //        } catch (Exception e) {
 //            logger.error("Can not work with element");
 //            Assert.fail("Can not work with element");

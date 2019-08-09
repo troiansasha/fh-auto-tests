@@ -108,5 +108,15 @@ public class ActionsWithOurElements {
             Assert.fail("Can not work with element");
         }
     }
+    public void clickOnSaveButton(){
+
+        try {
+            webDriver.findElement(By.xpath(".//*[text()=' Save ']")).click();
+            logger.info("Click save button");
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+    }
 
 }

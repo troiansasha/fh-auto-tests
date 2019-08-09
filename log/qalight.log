@@ -5711,3 +5711,111 @@
 2019-01-08 15:41:54   INFO [libs.ActionsWithOurElements] : testto was inputted into input 
 2019-01-08 15:41:55   INFO [libs.ActionsWithOurElements] : Click search button
 2019-01-08 15:41:55  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-08-08 10:45:53   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 10:45:54   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 10:45:54   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 10:45:54   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 10:45:56   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 10:45:56   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 10:45:56   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 10:45:57   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:57   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:58   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:58   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:58   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:58   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:45:59   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-08-08 10:45:59   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:00   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:00   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:00   INFO [libs.ActionsWithOurElements] : testto was inputted into input 
+2019-08-08 10:46:00   INFO [libs.ActionsWithOurElements] : Click search button
+2019-08-08 10:46:17   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 10:46:18   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 10:46:18   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 10:46:18   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 10:46:20   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 10:46:20   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 10:46:20   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 10:46:20   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:21   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : 123 was inputted into input 
+2019-08-08 10:46:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 10:46:23   INFO [libs.ActionsWithOurElements] : testto was inputted into input 
+2019-08-08 10:46:23   INFO [libs.ActionsWithOurElements] : Click search button
+2019-08-08 10:46:23  ERROR [libs.ActionsWithOurElements] : Can not work with element
+2019-08-08 17:01:25   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 17:01:31   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 17:01:32   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 17:01:32   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 17:01:33   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 17:01:34   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 17:01:34   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 17:01:34   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:01:34   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:22   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 17:59:23   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 17:59:23   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 17:59:23   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 17:59:24   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 17:59:25   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 17:59:25   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 17:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:25   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:27   INFO [libs.ActionsWithOurElements] : Spain was inputted into input 
+2019-08-08 17:59:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:28   INFO [libs.ActionsWithOurElements] : Click save button
+2019-08-08 17:59:52   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 17:59:52   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 17:59:52   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 17:59:52   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 17:59:54   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 17:59:54   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 17:59:54   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 17:59:55   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 17:59:55   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:24   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 18:01:24   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 18:01:25   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 18:01:25   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 18:01:26   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 18:01:26   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 18:01:27   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 18:01:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:27   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:28   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:29   INFO [libs.ActionsWithOurElements] : Spain was inputted into input 
+2019-08-08 18:01:29   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:29   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:01:29   INFO [libs.ActionsWithOurElements] : Click save button
+2019-08-08 18:04:05   INFO [pages.LoginPage] : LoginPage was opened
+2019-08-08 18:04:05   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-08-08 18:04:05   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-08-08 18:04:05   INFO [pages.LoginPage] : Button enter was clicked
+2019-08-08 18:04:06   INFO [pages.ChangeLanguagePage] : Button Language was clicked
+2019-08-08 18:04:07   INFO [pages.ChangeLanguagePage] : Button Language change language
+2019-08-08 18:04:07   INFO [pages.HomePage] : 10 second timer for download started
+2019-08-08 18:04:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:07   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:08   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:08   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:09   INFO [libs.ActionsWithOurElements] : Spain was inputted into input 
+2019-08-08 18:04:09   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:10   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-08-08 18:04:10   INFO [libs.ActionsWithOurElements] : Click save button

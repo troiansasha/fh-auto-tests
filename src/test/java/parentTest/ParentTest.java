@@ -1,5 +1,6 @@
 package parentTest;
 
+import geozonesTest.GeozonesTest;
 import myFleetTests.VehiclesTest;
 import org.junit.After;
 import org.junit.Assert;
@@ -7,6 +8,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
+import pages.GeozonesPages.GeozonesPage;
 import pages.myFleetPages.VehiclesPage;
 import pages.servicesPages.ExpectedServicesPage;
 import pages.servicesPages.FinishedServicesPage;
@@ -24,6 +26,7 @@ public class ParentTest {
     protected ExpectedServicesPage expectedServicesPage;
     protected FinishedServicesPage finishedServicesPage;
     protected VehiclesPage vehiclesPage;
+    protected GeozonesPage geozonesPage;
 
     //Precondition
     @Before
@@ -44,6 +47,7 @@ public class ParentTest {
     expectedServicesPage = new ExpectedServicesPage(webDriver);
     finishedServicesPage = new FinishedServicesPage(webDriver);
     vehiclesPage = new VehiclesPage(webDriver);
+    geozonesPage = new GeozonesPage(webDriver);
     }
     @After
     public void tearDown () {
