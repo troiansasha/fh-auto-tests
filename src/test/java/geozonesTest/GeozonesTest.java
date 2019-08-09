@@ -59,7 +59,7 @@ public class GeozonesTest extends ParentTest {
         geozonesPage.enterTextInToInputTitle(TITLE_NAME);
         geozonesPage.selectCountryTypeFromDropdown(COUNTRY_NAME);
         checkExpectedResult("Title not find", true, geozonesPage.filterIsCorrectTitlegeozones());
-    }
+    } 
 
 
     @After
