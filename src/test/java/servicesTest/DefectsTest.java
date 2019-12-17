@@ -33,9 +33,9 @@ public class DefectsTest extends ParentTest {
     public void validFindDefectByName() {
 
 
-        POIPage.searchPOIByName(Vehicle_name);
-        POIPage.filterIsCorrectName();
-        checkExpectedResult("Vehicle not find", true, POIPage.filterIsCorrectName());
+        defectsPage.searchDefByName(Vehicle_name);
+        defectsPage.filterIsCorrectName();
+        checkExpectedResult("Vehicle not find", true, defectsPage.filterIsCorrectName());
 
     }
 }

@@ -22,6 +22,10 @@ public class DefectsPage extends ParentPage {
     private WebElement chooseStatusNew;
     @FindBy(xpath = ".//*[text()=' Fixed ']")
     private WebElement chooseStatusFixed;
+    @FindBy(id = "vehicle")
+    private WebElement inputVehicleName;
+    @FindBy(xpath = ".//*[text()='9187']")
+    private WebElement nameIsCorrrect;
 
     public void openServices() {
         actionsWithOurElements.clickOnElement(services);
@@ -45,10 +49,14 @@ public class DefectsPage extends ParentPage {
         actionsWithOurElements.clickOnElement(chooseStatusFixed);
 
     }
-//    public boolean filterGroupIsCorrect() {
-//        return
-//                actionsWithOurElements.elementIsDisplayed(groupIsCorrect);
-//    }
+    public void searchDefByName(String searchName){
+        actionsWithOurElements.enterTextIntoInput(inputVehicleName, searchName);
+        actionsWithOurElements.clickOnSearchButton();
+    }
+    public boolean filterIsCorrectName(){
+        return
+                actionsWithOurElements.elementIsDisplayed(nameIsCorrrect);
+    }
 }
 
 

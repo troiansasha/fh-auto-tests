@@ -853,3 +853,12 @@
 2019-17-12 17:17:20   INFO [pages.HomePage] : 10 second timer for download started
 2019-17-12 17:17:21   INFO [libs.ActionsWithOurElements] : Element was clicked
 2019-17-12 17:17:22   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-17-12 18:49:42   INFO [pages.LoginPage] : LoginPage was opened
+2019-17-12 18:49:42   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2019-17-12 18:49:42   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2019-17-12 18:49:43   INFO [pages.LoginPage] : Button enter was clicked
+2019-17-12 18:49:43   INFO [pages.HomePage] : 10 second timer for download started
+2019-17-12 18:49:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-17-12 18:49:44   INFO [libs.ActionsWithOurElements] : Element was clicked
+2019-17-12 18:49:45   INFO [libs.ActionsWithOurElements] : 9187 was inputted into input 
+2019-17-12 18:49:45   INFO [libs.ActionsWithOurElements] : Click search button
