@@ -10,9 +10,9 @@ public class ExpectedServicesTest extends ParentTest {
     @Before
     public void LogIn(){
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         expectedServicesPage.openServices();
         expectedServicesPage.openSetvicesExpected();
         expectedServicesPage.headerIsCorrect();

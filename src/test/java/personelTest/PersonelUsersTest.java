@@ -11,8 +11,8 @@ public class PersonelUsersTest extends ParentTest  {
         loginPage.validLogin();
         homePage.timer10seconds();
         //Change Language
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
         //Go to personnel Users
         personelUserPage.openPerssonel();
         personelUserPage.openPerssonelUsers();

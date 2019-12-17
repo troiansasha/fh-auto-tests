@@ -1,5 +1,6 @@
 package parentTest;
 
+import clientsTest.ClientsCompanyTest;
 import geozonesTest.GeozonesTest;
 import myFleetTests.VehiclesTest;
 import org.junit.After;
@@ -8,10 +9,15 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
+import pages.ClientsPages.ClientsCompaniesPage;
 import pages.GeozonesPages.GeozonesPage;
+import pages.myFleetPages.IntegrationsPage;
+import pages.myFleetPages.VehicleGroupsPage;
 import pages.myFleetPages.VehiclesPage;
+import pages.servicesPages.DefectsPage;
 import pages.servicesPages.ExpectedServicesPage;
 import pages.servicesPages.FinishedServicesPage;
+import pages.servicesPages.TechConditionPage;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -27,6 +33,13 @@ public class ParentTest {
     protected FinishedServicesPage finishedServicesPage;
     protected VehiclesPage vehiclesPage;
     protected GeozonesPage geozonesPage;
+    protected TechConditionPage techConditionPage;
+    protected POIPage POIPage;
+    protected VehicleGroupsPage vehicleGroupsPage;
+    protected IntegrationsPage integrationsPage;
+    protected DefectsPage defectsPage;
+    protected ClientsCompaniesPage clientsCompaniesPage;
+    /* **To Do  */
 
     //Precondition
     @Before
@@ -48,6 +61,11 @@ public class ParentTest {
     finishedServicesPage = new FinishedServicesPage(webDriver);
     vehiclesPage = new VehiclesPage(webDriver);
     geozonesPage = new GeozonesPage(webDriver);
+    techConditionPage = new TechConditionPage(webDriver);
+    POIPage = new POIPage(webDriver);
+    vehicleGroupsPage = new VehicleGroupsPage(webDriver);
+    integrationsPage = new IntegrationsPage(webDriver);
+    defectsPage = new DefectsPage(webDriver);
     }
     @After
     public void tearDown () {

@@ -14,12 +14,12 @@ public class GeozonesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         //Go to MyFleet vehicles
         geozonesPage.openGeozonesPlanner();
-//        vehiclesPage.headerIsCorrect();
+        geozonesPage.headerIsCorrectPlanner();
         checkExpectedResult("Page Geozones/Planner not opened", true, geozonesPage.headerIsCorrectPlanner());
     }
 
@@ -28,9 +28,9 @@ public class GeozonesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         //Go to MyFleet vehicles
         geozonesPage.openGeozonesPlanner();
 //        vehiclesPage.headerIsCorrect();
@@ -47,9 +47,9 @@ public class GeozonesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         //Go to MyFleet vehicles
         geozonesPage.openGeozonesPlanner();
 //        vehiclesPage.headerIsCorrect();
@@ -58,12 +58,14 @@ public class GeozonesTest extends ParentTest {
         geozonesPage.addingNewGeozoneCountry();
         geozonesPage.enterTextInToInputTitle(TITLE_NAME);
         geozonesPage.selectCountryTypeFromDropdown(COUNTRY_NAME);
+        geozonesPage.enterTextInToInputFindTitleGeozone(COUNTRY_NAME);
+        geozonesPage.filterIsCorrectTitlegeozones();
         checkExpectedResult("Title not find", true, geozonesPage.filterIsCorrectTitlegeozones());
-    } 
+    }
 
 
     @After
-    public void deleteGeo(){
+    public void deleteGeo() {
         geozonesPage.deleteGeozone();
     }
 }

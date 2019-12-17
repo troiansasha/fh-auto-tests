@@ -13,9 +13,9 @@ public class PersonelDriversTest extends ParentTest {
     public void logIn(){
 //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();

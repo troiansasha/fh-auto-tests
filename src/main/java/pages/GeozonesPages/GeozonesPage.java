@@ -86,6 +86,7 @@ public class GeozonesPage extends ParentPage {
         return
                 actionsWithOurElements.elementIsDisplayed(geozoneNameIsCorrrect);
     }
+
     public void deleteGeozone(){
         actionsWithOurElements.clickOnElement(checkPlannerPage);
         actionsWithOurElements.clickOnElement(buttonDelete);

@@ -16,8 +16,8 @@ public class POIpoiTest extends ParentTest {
     @Before
         public void loginBefore() {
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
         homePage.timer10seconds();
     }
 

@@ -12,9 +12,9 @@ public class GeozonesCrossingsTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         //Go to MyFleet vehicles
         geozonesPage.openGeozonesPlanner();
 //        vehiclesPage.headerIsCorrect();
