@@ -10,26 +10,21 @@ public class VehicleGroupsTest extends ParentTest {
     final String GROUP_NAME_EDIT = "Test Group Name Edit";
 
     @Before
-    public void preconditionMyFleetVehicleGroups(){
-        //Login block
+    public void preconditionMyFleetVehicleGroups() {
         loginPage.validLogin();
-//        changeLanguagePage.clickOnLanguage();
-//        changeLanguagePage.changeLanguage();
-//        homePage.timer10seconds();
-        //Go to MyFleet vehiclesGroup
         vehicleGroupsPage.openVehicleGroups();
 
     }
 
     @Test
-    public void validMyFleetVehicleGroupsPage(){
+    public void validMyFleetVehicleGroupsPage() {
 
         checkExpectedResult("Page My Fleet/Vehicle Groups not opened", true, vehicleGroupsPage.headerIsCorrectVehicleGroups());
 
     }
 
     @Test
-    public void addNewVehicleGroup(){
+    public void addNewVehicleGroup() {
 
         vehicleGroupsPage.addMyFleetNewGroup();
         vehicleGroupsPage.inputGroupName(GROUP_NAME);
@@ -41,7 +36,7 @@ public class VehicleGroupsTest extends ParentTest {
     }
 
     @Test
-    public void searchIsCorrect(){
+    public void searchIsCorrect() {
 
         vehicleGroupsPage.addMyFleetNewGroup();
         vehicleGroupsPage.inputGroupName(GROUP_NAME);
@@ -53,4 +48,17 @@ public class VehicleGroupsTest extends ParentTest {
 
     }
 
+    @Test
+    public void editVehicleGroupNotification() {
+
+        vehicleGroupsPage.addMyFleetNewGroup();
+        vehicleGroupsPage.inputGroupName(GROUP_NAME_EDIT);
+        vehicleGroupsPage.addVehicleOne();
+        vehicleGroupsPage.saveNewGroup();
+        vehicleGroupsPage.addNotification();
+        vehicleGroupsPage.newGroupEditAdded();
+        checkExpectedResult("Page My Fleet/Vehicle Group current group not opened", true, vehicleGroupsPage.newGroupEditAdded());
+        vehicleGroupsPage.deleteVehicleGroup();
+
+    }
 }

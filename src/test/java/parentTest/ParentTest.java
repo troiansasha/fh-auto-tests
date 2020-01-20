@@ -10,7 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
 import pages.ClientsPages.ClientsCompaniesPage;
+import pages.ClientsPages.ClientsEmployeePage;
+import pages.ClientsPages.ClientsVehicleAccessPage;
 import pages.GeozonesPages.GeozonesPage;
+import pages.ReportsPages.ReportsVideoLocationObjectsPage;
 import pages.myFleetPages.IntegrationsPage;
 import pages.myFleetPages.VehicleGroupsPage;
 import pages.myFleetPages.VehiclesPage;
@@ -18,6 +21,9 @@ import pages.servicesPages.DefectsPage;
 import pages.servicesPages.ExpectedServicesPage;
 import pages.servicesPages.FinishedServicesPage;
 import pages.servicesPages.TechConditionPage;
+import reportsTest.ReportsLocationByTimeTest;
+import reportsTest.ReportsObjectHistoryTest;
+import reportsTest.ReportsVideoSummaryTest;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -39,6 +45,9 @@ public class ParentTest {
     protected IntegrationsPage integrationsPage;
     protected DefectsPage defectsPage;
     protected ClientsCompaniesPage clientsCompaniesPage;
+    protected ClientsEmployeePage clientsEmployeePage;
+    protected ClientsVehicleAccessPage clientsVehicleAccessPage;
+    protected ReportsVideoLocationObjectsPage reportsVideoLocationObjectsPage;
     /* **To Do  */
 
     //Precondition
@@ -66,6 +75,10 @@ public class ParentTest {
     vehicleGroupsPage = new VehicleGroupsPage(webDriver);
     integrationsPage = new IntegrationsPage(webDriver);
     defectsPage = new DefectsPage(webDriver);
+    reportsVideoLocationObjectsPage = new ReportsVideoLocationObjectsPage(webDriver);
+    clientsCompaniesPage = new ClientsCompaniesPage(webDriver);
+    clientsEmployeePage = new ClientsEmployeePage(webDriver);
+    clientsVehicleAccessPage = new ClientsVehicleAccessPage(webDriver);
     }
     @After
     public void tearDown () {

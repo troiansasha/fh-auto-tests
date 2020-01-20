@@ -10,9 +10,7 @@ public class DefectsTest extends ParentTest {
 
     final String Vehicle_name = "9187";
     final String POI_ADRESS = "POI Adress";
-    final String POI_NAME = "Test POI POI";
-    final String POI_COORDINATES = "50.00, 30.00";
-    final String POI_NAMEEDIT = "Test POI 1 Edit";
+
 
     @Before
     public void loginBefore() {
@@ -34,8 +32,32 @@ public class DefectsTest extends ParentTest {
 
 
         defectsPage.searchDefByName(Vehicle_name);
-        defectsPage.filterIsCorrectName();
+        defectsPage.filterStatusIsCorrectNew();
         checkExpectedResult("Vehicle not find", true, defectsPage.filterIsCorrectName());
+    }
+    @Test
+    public void validFindNewDefect() {
+
+
+        defectsPage.selectNewDefectFromDropdown();
+        defectsPage.filterStatusIsCorrectNew();
+        checkExpectedResult("Vehicle not find", true, defectsPage.filterStatusIsCorrectNew());
+    }
+    @Test
+    public void validFindFixedDefect() {
+
+
+        defectsPage.selectFixedDefectFromDropdown();
+        defectsPage.filterStatusIsCorrectFixed();
+        checkExpectedResult("Vehicle not find", true, defectsPage.filterStatusIsCorrectFixed());
+    }
+    @Test
+    public void defectPhotoes() {
+
+
+        defectsPage.openPhotoDefect();
+        defectsPage.changeView();
+        defectsPage.exitFromPhoto();
 
     }
 }

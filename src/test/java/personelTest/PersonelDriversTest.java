@@ -13,13 +13,9 @@ public class PersonelDriversTest extends ParentTest {
     public void logIn(){
 //Login block
         loginPage.validLogin();
-//        changeLanguagePage.clickOnLanguage();
-//        changeLanguagePage.changeLanguage();
-//        homePage.timer10seconds();
         //Go to personnel drivers
         personelDriversPage.openPersonel();
         personelDriversPage.openPersonelDrivers();
-//        personelDriversPage.headerIsCorrect();
         checkExpectedResult("Page Personel/Drivers is not opened", true, personelDriversPage.headerIsCorrect());
     }
 

@@ -3,6 +3,7 @@ package libs;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -128,6 +129,31 @@ public class ActionsWithOurElements {
 //            Assert.fail("Can not work with element");
 //        }
 //    }
-
+    public void generalError500(){
+        try {
+            webDriver.findElement(By.xpath(".//*[text()='Loading error']")).isDisplayed();
+            logger.info("Find 500 ERROR ");
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+    }
+//    public void clickOnEnterButton (){
+//        try {webDriver.findElement(By.xpath()).sendKeys(Keys.ENTER);
+//
+//        }catch (Exception e) {
+//            logger.error("Can not click enter");
+//            Assert.fail("Can not click enter");
+//        }
+//    }
+public void clickOnEnter (WebElement webElement) {
+    try {
+        webElement.sendKeys(Keys.ENTER);
+        logger.info("Element Enter was clicked");
+    } catch (Exception e) {
+        logger.error("Can not work with element");
+        Assert.fail("Can not work with element");
+    }
+}
 
 }

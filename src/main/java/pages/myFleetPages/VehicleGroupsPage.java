@@ -26,10 +26,20 @@ public class VehicleGroupsPage extends ParentPage
     private WebElement inputGroupName;
     @FindBy(xpath = ".//span[text()='Alarms']")
     private WebElement addNotificationAlarm;
+    @FindBy(xpath = ".//span[text()='Drivers']")
+    private WebElement addNotificationDrivers;
+    @FindBy(xpath = ".//span[text()='Geozones']")
+    private WebElement addNotificationGeozones;
+    @FindBy(xpath = ".//span[text()='Services']")
+    private WebElement addNotificationServices;
     @FindBy(xpath = ".//span[text()='Add all']")
     private WebElement addAllVehicle;
+    @FindBy(xpath=".//*[text()=' LAT346 ']")
+    private WebElement buttonVehicle1;
     @FindBy(xpath = ".//span[text()='Test Group Name']")
     private WebElement newGroupAdded;
+    @FindBy(xpath = ".//span[text()='Test Group Name Edit']")
+    private WebElement newGroupEditAdded;
     @FindBy(xpath=".//*[text()='Delete']")
     private WebElement buttonDelete;
     @FindBy(xpath = ".//*[text()=\' Yes \']")
@@ -52,16 +62,27 @@ public class VehicleGroupsPage extends ParentPage
     }
     public void addNotification(){
         actionsWithOurElements.clickOnElement(addNotificationAlarm);
+        actionsWithOurElements.clickOnElement(addNotificationDrivers);
+        actionsWithOurElements.clickOnElement(addNotificationGeozones);
+        actionsWithOurElements.clickOnElement(addNotificationServices);
     }
     public void addVehiclesAll(){
         actionsWithOurElements.clickOnElement(addAllVehicle);
     }
+    public void addVehicleOne(){
+        actionsWithOurElements.clickOnElement(buttonVehicle1);
+    }
     public void saveNewGroup(){
         actionsWithOurElements.clickOnSaveButton();
     }
+
     public boolean newGroupAdded(){
         return
                 actionsWithOurElements.elementIsDisplayed(newGroupAdded);
+    }
+    public boolean newGroupEditAdded(){
+        return
+                actionsWithOurElements.elementIsDisplayed(newGroupEditAdded);
     }
     public void deleteVehicleGroup(){
         actionsWithOurElements.clickOnElement(buttonDelete);

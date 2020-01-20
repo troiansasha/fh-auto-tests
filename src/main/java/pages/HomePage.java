@@ -34,4 +34,17 @@ public class HomePage extends ParentPage {
     public void timer3seconds (){
             webDriver.manage().timeouts().setScriptTimeout(2,TimeUnit.SECONDS);
     }
+
+    public void generalError500(){
+        try {
+            webDriver.findElement(By.xpath(".//*[text()='Loading error']")).isDisplayed();
+            logger.info("Find 500 ERROR ");
+        } catch (Exception e) {
+            logger.error("Can not work with element");
+            Assert.fail("Can not work with element");
+        }
+    }
+    public void clearTextBox(){
+            webDriver.findElement(By.name("dateInput")).clear();
+    }
 }
