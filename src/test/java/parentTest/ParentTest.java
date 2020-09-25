@@ -53,7 +53,7 @@ public class ParentTest {
     //Precondition
     @Before
     public void setUp() {
-        File file = new File("./src/drivers/chromedriver.exe");
+        File file = new File("./src/Drivers/chromedriver.exe");
         System.setProperty("webdriver.chrome.driver", file.getAbsolutePath());
 
         webDriver = new ChromeDriver();

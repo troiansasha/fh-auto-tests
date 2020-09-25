@@ -405,3 +405,9 @@
 2020-28-08 09:59:14   INFO [libs.ActionsWithOurElements] : Element was clicked
 2020-28-08 09:59:15   INFO [libs.ActionsWithOurElements] : Element was clicked
 2020-28-08 09:59:15   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 11:14:24   INFO [pages.LoginPage] : LoginPage was opened
+2020-25-09 11:14:24   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2020-25-09 11:14:25   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2020-25-09 11:14:25   INFO [pages.LoginPage] : Button enter was clicked
+2020-25-09 11:14:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 11:14:26   INFO [libs.ActionsWithOurElements] : Element was clicked
