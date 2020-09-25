@@ -411,3 +411,17 @@
 2020-25-09 11:14:25   INFO [pages.LoginPage] : Button enter was clicked
 2020-25-09 11:14:26   INFO [libs.ActionsWithOurElements] : Element was clicked
 2020-25-09 11:14:26   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 17:13:28   INFO [pages.LoginPage] : LoginPage was opened
+2020-25-09 17:13:28   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2020-25-09 17:13:28   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2020-25-09 17:13:28   INFO [pages.LoginPage] : Button enter was clicked
+2020-25-09 17:13:29   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 17:13:30   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 17:47:22   INFO [pages.LoginPage] : LoginPage was opened
+2020-25-09 17:47:22   INFO [libs.ActionsWithOurElements] : troianwork@gmail.com was inputted into input 
+2020-25-09 17:47:22   INFO [libs.ActionsWithOurElements] : 1q2w3e4r5t was inputted into input 
+2020-25-09 17:47:22   INFO [pages.LoginPage] : Button enter was clicked
+2020-25-09 17:47:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 17:47:23   INFO [libs.ActionsWithOurElements] : Element was clicked
+2020-25-09 17:47:24   INFO [libs.ActionsWithOurElements] : AA010 was inputted into input 
+2020-25-09 17:47:24   INFO [libs.ActionsWithOurElements] : Click search button
