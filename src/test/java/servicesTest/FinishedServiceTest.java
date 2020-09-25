@@ -10,11 +10,17 @@ public class FinishedServiceTest extends ParentTest {
     @Before
     public void LogIn(){
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
+//        changeLanguagePage.clickOnLanguage();
+//        changeLanguagePage.changeLanguage();
+//        homePage.timer10seconds();
         finishedServicesPage.openServices();
         finishedServicesPage.openServicesExpected();
+    }
+    @Test
+
+    public void headerIsCorrectExpectedServices(){
+
+
         finishedServicesPage.headerIsCorrect();
         checkExpectedResult("Page Services/Finished Services not opened", true, finishedServicesPage.headerIsCorrect());
 
@@ -30,7 +36,7 @@ public class FinishedServiceTest extends ParentTest {
         finishedServicesPage.setServiceDate();
         finishedServicesPage.setOdometerData("123");
         finishedServicesPage.clickSubmit();
-        finishedServicesPage.chooseGroup();
+//        finishedServicesPage.chooseGroup();
 
     }
 
@@ -40,7 +46,7 @@ public class FinishedServiceTest extends ParentTest {
     public void delete(){
         finishedServicesPage.enterTextIntoSearchByVehicle("TestTO");
         finishedServicesPage.deleteService();
-//        checkExpectedResult("service has been removed", false, finishedServicesPage.filterIsCorrect());
+
     }
 
 }

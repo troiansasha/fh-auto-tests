@@ -25,7 +25,7 @@ public class VehiclesPage extends ParentPage {
     private WebElement vehicleNameIsCorrrect;
     @FindBy(id = "licensePlateNumber")
     private WebElement inputVehicleLicensePlate;
-    @FindBy(xpath = ".//*[text()=' ssss ']")
+    @FindBy(xpath = ".//*[text()=' test ']")
     private WebElement vehicleLicensePlateIsCorrrect;
     @FindBy(id = "simNumber")
     private WebElement inputVehiclePhoneNumber;
@@ -37,7 +37,7 @@ public class VehiclesPage extends ParentPage {
     private WebElement vehicleTypeIsCorrect;
     @FindBy(id = "department")
     private WebElement departmentDD;
-    @FindBy(xpath = ".//*[text()='UA-01-Kiev']")
+    @FindBy(xpath = ".//*[text()=' UA-01-Kyiv ']")
     private WebElement departmentTypeIsCorrect;
 
 

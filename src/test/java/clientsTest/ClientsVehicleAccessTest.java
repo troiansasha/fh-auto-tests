@@ -59,23 +59,23 @@ public class ClientsVehicleAccessTest extends ParentTest {
         checkExpectedResult("Driver is not find", true, clientsVehicleAccessPage.companyIsCorrect());
 
     }
-    @Test
-    public void validVehicleSearch() {
+//    @Test
+//    public void validVehicleSearch() {
+//
+//        clientsVehicleAccessPage.addNewVehicleAccess();
+//        clientsVehicleAccessPage.enterTextInToInputSelectCompany(COMPANY);
+//        clientsVehicleAccessPage.enterTextInToInputSelectVehicle(VEHICLE);
+//        clientsVehicleAccessPage.clickSubmit();
+//        clientsVehicleAccessPage.enterTextInToSearchBycVehicle(VEHICLE);
+//        clientsVehicleAccessPage.vehicleIsCorrect();
+//        checkExpectedResult("Driver is not find", true, clientsVehicleAccessPage.vehicleIsCorrect());
+//
+//    }
+        @After
+        public void delete () {
 
-        clientsVehicleAccessPage.addNewVehicleAccess();
-        clientsVehicleAccessPage.enterTextInToInputSelectCompany(COMPANY);
-        clientsVehicleAccessPage.enterTextInToInputSelectVehicle(VEHICLE);
-        clientsVehicleAccessPage.clickSubmit();
-        clientsVehicleAccessPage.enterTextInToSearchBycVehicle(VEHICLE);
-        clientsVehicleAccessPage.vehicleIsCorrect();
-        checkExpectedResult("Driver is not find", true, clientsVehicleAccessPage.vehicleIsCorrect());
+            clientsVehicleAccessPage.deleteAccess();
 
-    }
-      //  @After
-       // public void delete () {
-
-        //    clientsVehicleAccessPage.deleteAccess();
-
-      //  }
+        }
     }
 

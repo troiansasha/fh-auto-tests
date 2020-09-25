@@ -6,7 +6,7 @@ import parentTest.ParentTest;
 public class VehiclesTest extends ParentTest {
 
     final String VEHICLE_NAME = "AA010";
-    final String VEHICLE_LICENSE_PLATE = "ssss";
+    final String VEHICLE_LICENSE_PLATE = "test";
     final String VEHICLE_PHONE_NUMBER = "37066755779";
     final String VEHICLE_TYPE = "Mega Truck";
     final String DEPARTMENT = "UA-01-Kiev";
@@ -17,9 +17,6 @@ public class VehiclesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
         //Go to MyFleet vehicles
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
@@ -34,9 +31,6 @@ public class VehiclesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
         //Go to MyFleet vehicles
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
@@ -51,9 +45,6 @@ public class VehiclesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
         //Go to MyFleet vehicles
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
@@ -68,9 +59,6 @@ public class VehiclesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
         //Go to MyFleet vehicles
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();
@@ -85,9 +73,6 @@ public class VehiclesTest extends ParentTest {
 
         //Login block
         loginPage.validLogin();
-        changeLanguagePage.clickOnLanguage();
-        changeLanguagePage.changeLanguage();
-        homePage.timer10seconds();
         //Go to MyFleet vehicles
         vehiclesPage.openVehicles();
 //        vehiclesPage.headerIsCorrect();

@@ -10,11 +10,14 @@ public class ExpectedServicesTest extends ParentTest {
     @Before
     public void LogIn(){
         loginPage.validLogin();
-//        changeLanguagePage.clickOnLanguage();
-//        changeLanguagePage.changeLanguage();
-//        homePage.timer10seconds();
         expectedServicesPage.openServices();
         expectedServicesPage.openSetvicesExpected();
+
+
+    }
+
+    @Test
+    public void headerIsCorrectExpectedServices() {
         expectedServicesPage.headerIsCorrect();
         checkExpectedResult("Page Services/Expected Services not opened", true, expectedServicesPage.headerIsCorrect());
 
@@ -23,15 +26,12 @@ public class ExpectedServicesTest extends ParentTest {
     @Test
     public void validServicesExpectedCreate() {
 
-//        Before running test need to enter "Services Types" "TO"
-
         expectedServicesPage.addNewExpServices();
         expectedServicesPage.chooseVehicle();
         expectedServicesPage.chooseService();
         expectedServicesPage.setLastServiceData();
         expectedServicesPage.clickSubmit();
         expectedServicesPage.chooseGroupe();
-
 
     }
 
@@ -50,8 +50,9 @@ public class ExpectedServicesTest extends ParentTest {
 
     @After
     public void delete(){
-        expectedServicesPage.deleteService();
         expectedServicesPage.enterTextIntoSearchByVehicle("testto");
+        expectedServicesPage.deleteService();
+
     }
 
 }
