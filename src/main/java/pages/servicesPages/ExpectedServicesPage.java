@@ -37,7 +37,8 @@ public class ExpectedServicesPage extends ParentPage {
     private WebElement inputVehicleName;
 //    @FindBy(xpath=".//*[text()=' Search ']")
 //    private WebElement buttonSearch;
-    @FindBy(id = "groupName")
+//    @FindBy(id = "groupName")
+    @FindBy(xpath = ".//*[text()=' My group ']")
     private WebElement chooseGroupe;
     @FindBy(xpath = ".//*[text()=' All Vehicles ']")
     private WebElement setGroupe;

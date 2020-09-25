@@ -80,9 +80,10 @@ public class ParentTest {
     clientsEmployeePage = new ClientsEmployeePage(webDriver);
     clientsVehicleAccessPage = new ClientsVehicleAccessPage(webDriver);
     }
+    //Exit Browser
     @After
     public void tearDown () {
-//        webDriver.quit();
+        webDriver.quit();
     }
 
 

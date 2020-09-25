@@ -9,19 +9,19 @@ public class GeozonesTest extends ParentTest {
     final String TITLE_NAME = "Spain";
     final String COUNTRY_NAME = "Spain";
 
-    @Test
-    public void validGeozonesPlannerPage() {
-
-        //Login block
-        loginPage.validLogin();
-//        changeLanguagePage.clickOnLanguage();
-//        changeLanguagePage.changeLanguage();
-//        homePage.timer10seconds();
-        //Go to MyFleet vehicles
-        geozonesPage.openGeozonesPlanner();
-        geozonesPage.headerIsCorrectPlanner();
-        checkExpectedResult("Page Geozones/Planner not opened", true, geozonesPage.headerIsCorrectPlanner());
-    }
+//    @Test
+//    public void validGeozonesPlannerPage() {
+//
+//        //Login block
+//        loginPage.validLogin();
+////        changeLanguagePage.clickOnLanguage();
+////        changeLanguagePage.changeLanguage();
+////        homePage.timer10seconds();
+//        //Go to MyFleet vehicles
+//        geozonesPage.openGeozonesPlanner();
+//        geozonesPage.headerIsCorrectPlanner();
+//        checkExpectedResult("Page Geozones/Planner not opened", true, geozonesPage.headerIsCorrectPlanner());
+//    }
 
     @Test
     public void addNewGeozone() {

@@ -17,7 +17,7 @@ public class GeozonesPage extends ParentPage {
     @FindBy(xpath = ".//*[text()='Crossings']")
     private WebElement geozonesCrossings;
 
-    @FindBy(xpath = ".//span[text()='Geozones']")
+    @FindBy(xpath = ".//*[text()='Geozone data']")
     private WebElement checkPlannerPage;
     @FindBy(xpath = ".//span[text()='Geozones crossings']")
     private WebElement checkCrossingsPage;
